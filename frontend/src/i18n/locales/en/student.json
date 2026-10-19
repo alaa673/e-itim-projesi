@@ -1,0 +1,505 @@
+{
+  "progress": {
+    "title": "Topic analysis",
+    "description": "The topics you're strong in and the ones to review, based on your exam results.",
+    "summaryLabel": "Progress summary",
+    "summary": {
+      "average_one": "Average of your last exam",
+      "average_other": "Average of your last {{count}} exams",
+      "last": "Latest exam",
+      "delta": "{{value}} points",
+      "review": "Topics to review",
+      "mistakes": "Mistake notebook",
+      "vsPrevious": "vs. previous result"
+    },
+    "timeline": {
+      "title": "Overall trend",
+      "description": "Your exam scores and the class average",
+      "aria": "Line chart comparing your recent exam scores with the class average",
+      "me": "My score",
+      "class": "Class average"
+    },
+    "topics": {
+      "title": "Topic analysis",
+      "description": "Ordered from weakest to strongest",
+      "subject": "Subject",
+      "threshold": "Review threshold ({{value}}%)",
+      "review": "Review",
+      "previous": "Previous result",
+      "firstTime": "Measured for the first time",
+      "improved": "Up {{value}} points from last time",
+      "dropped": "Down {{value}} points from last time",
+      "practice": "Go to topic practice"
+    },
+    "support": {
+      "title": "My support exercises",
+      "description": "Exercises your teacher sent just for you",
+      "questions_one": "{{count}} question",
+      "questions_other": "{{count}} questions",
+      "withSummary": "with summary",
+      "pending": "To do",
+      "completed": "Completed",
+      "gain": "+{{value}} points",
+      "due": "Due:"
+    },
+    "goals": {
+      "title": "My goals this week",
+      "description": "{{done}} of {{total}} goals done",
+      "done": "Done",
+      "open": "In progress"
+    }
+  },
+  "dashboard": {
+    "greeting": "Hi {{name}}!",
+    "lead": "Pick up today’s journey where you left off.",
+    "title1": "Small steps.",
+    "title2": "Big discoveries.",
+    "note1": "Wonder",
+    "note2": "Explore",
+    "note3": "Learn",
+    "note4": "Achieve",
+    "continueLearning": "Keep learning",
+    "route": {
+      "title": "Your learning route",
+      "all": "All subjects"
+    },
+    "course": {
+      "topics": "{{done}} / {{total}} topics",
+      "progressLabel": "{{subject}} progress",
+      "back": "Back to lesson",
+      "details": "Topic details"
+    },
+    "plan": {
+      "title": "Today’s plan",
+      "empty": "Nothing planned for today. You can continue with topic practice.",
+      "chip": {
+        "exam": "Questions",
+        "homework": "Due",
+        "meeting": "Time"
+      }
+    },
+    "examPrep": {
+      "title": "{{exam}} preparation",
+      "body": "Mock exams, topic analysis and more"
+    },
+    "support": {
+      "title": "Let’s strengthen it together",
+      "lead": "{{teacher}} prepared a practice set for you on {{topic}}.",
+      "noneLead": "Support work from your teachers appears here.",
+      "withSummary_one": "Topic summary + {{count}} question",
+      "withSummary_other": "Topic summary + {{count}} questions",
+      "body": "Prepared especially for you to reinforce {{topic}}.",
+      "open": "Open practice",
+      "none": "No pending support work. You can review from your mistake notebook.",
+      "toMistakes": "Mistake notebook"
+    },
+    "goal": {
+      "title": "Your goal this week",
+      "done": "tasks completed",
+      "aria": "{{done}} of {{total}} goals completed",
+      "remaining_one": "One more step to go!",
+      "remaining_other": "{{count}} more steps to go!",
+      "complete": "Goal reached, amazing!"
+    }
+  },
+  "subjects": {
+    "description": "Your subjects, units and progress by topic.",
+    "units_one": "{{count}} unit",
+    "units_other": "{{count}} units",
+    "seeTopics": "See topics",
+    "progress": "{{done}}/{{total}} topics completed",
+    "practice": "Practice",
+    "materials": "Course materials",
+    "noMaterials": "No materials have been shared for this subject yet.",
+    "status": {
+      "done": "Completed",
+      "inProgress": "In progress",
+      "todo": "Not started"
+    }
+  },
+  "materials": {
+    "description": "Topic summaries, PDFs and presentations shared by your teachers.",
+    "searchPlaceholder": "Title, subject or topic",
+    "empty": "No materials shared yet",
+    "new": "New",
+    "demoPdf": "Demo: in the real version the PDF file opens here.",
+    "kinds": {
+      "summary": "Topic summary",
+      "pdf": "PDF",
+      "presentation": "Presentation"
+    }
+  },
+  "exams": {
+    "description": "Quizzes and exams set by your teachers.",
+    "viewLabel": "Exam view",
+    "now": "Now",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "empty": {
+      "now": "No exams are open right now",
+      "upcoming": "No upcoming exams",
+      "past": "No completed exams yet"
+    },
+    "kinds": {
+      "quiz": "Quiz",
+      "written": "Written exam",
+      "mock": "Mock exam"
+    },
+    "status": {
+      "upcoming": "Upcoming",
+      "available": "Open",
+      "completed": "Completed",
+      "missed": "Missed"
+    },
+    "classAverage": "Class avg. {{value}}",
+    "missedHint": "You did not take this exam.",
+    "opensAt": "Opens at the scheduled time",
+    "readyHint": "Start when you are ready; the timer does not stop once it starts.",
+    "playerHint": "{{minutes}} minutes · Your answers are submitted automatically when time runs out.",
+    "submitted": "Your exam has been submitted",
+    "mistakesSaved_one": "{{count}} question added to your mistake notebook",
+    "mistakesSaved_other": "{{count}} questions added to your mistake notebook"
+  },
+  "homework": {
+    "description": "See your homework, hand it in and read the feedback.",
+    "viewLabel": "Homework status",
+    "tabs": {
+      "todo": "To do",
+      "submitted": "Handed in",
+      "graded": "Graded"
+    },
+    "empty": {
+      "todo": "You have no homework to do",
+      "submitted": "No homework awaiting grading",
+      "graded": "No graded homework yet"
+    },
+    "status": {
+      "todo": "To do",
+      "submitted": "Handed in",
+      "graded": "Graded"
+    },
+    "late": "Overdue",
+    "instructions": "Instructions",
+    "rubric": "Rubric",
+    "yourSubmission": "Your submission",
+    "score": "Your score: {{score}}",
+    "answer": "Your answer",
+    "answerPlaceholder": "Write your answer or notes here…",
+    "file": "File",
+    "fileHint": "PDF, JPG, PNG or DOCX · up to 10 MB",
+    "needContent": "Write an answer or attach a file.",
+    "submit": "Hand in",
+    "submittedToast": "Your homework has been handed in"
+  },
+  "activities": {
+    "description": "Class activities, workshops and competitions.",
+    "empty": "No activities yet",
+    "kinds": {
+      "individual": "Individual",
+      "group": "Group"
+    },
+    "status": {
+      "upcoming": "Open to join",
+      "joined": "You are in",
+      "completed": "Completed"
+    },
+    "join": "Join",
+    "joined": "You joined “{{title}}”",
+    "leave": "Leave",
+    "left": "You left the activity"
+  },
+  "results": {
+    "description": "Your exam, homework and mock results compared with the class average.",
+    "searchPlaceholder": "Exam or homework name",
+    "empty": "No results yet",
+    "item": "Assessment",
+    "vsClass": "vs. class",
+    "kinds": {
+      "exam": "Exam",
+      "homework": "Homework",
+      "mock": "Mock exam"
+    },
+    "appeal": "Appeal",
+    "appealTitle": "Appeal a result",
+    "appealKind": "Appeal type",
+    "kindQuestion": "A question",
+    "kindScore": "Total score",
+    "questionNo": "Question number",
+    "appealMessage": "Your explanation",
+    "appealPlaceholder": "Briefly explain why you are appealing…",
+    "appealNote": "Your appeal goes to your teacher; the outcome appears here and in your notifications.",
+    "appealSent": "Your appeal was sent to your teacher"
+  },
+  "support": {
+    "description": "Personal support work your teacher prepared for you.",
+    "empty": "You have no support work right now",
+    "status": {
+      "pending": "To do",
+      "completed": "Completed"
+    },
+    "withSummary_one": "Topic summary + {{count}} question",
+    "withSummary_other": "Topic summary + {{count}} questions",
+    "then": "then",
+    "open": "Start working",
+    "introTitle": "{{topic}} — let’s strengthen it together",
+    "introFrom": "Prepared for you by {{teacher}}",
+    "summaryTitle": "First, a quick review",
+    "noSummary": "No summary was found for this topic.",
+    "noSummaryIncluded": "This work has no topic summary; you can start with the questions.",
+    "howItWorks": "When you finish, your result goes to your teacher and the change in your topic score is shown.",
+    "startQuestions_one": "Start {{count}} question",
+    "startQuestions_other": "Start {{count}} questions",
+    "quizTitle": "{{topic}} — support questions",
+    "quizHint": "You will see the correct answer and an explanation after each question.",
+    "completedToast": "Support work completed",
+    "doneTitle": "Great work!",
+    "doneBody": "Your score in {{topic}} went from {{before}} to {{after}}."
+  },
+  "mistakes": {
+    "description": "Questions you got wrong are kept here; retry them and mark what you have learned.",
+    "searchPlaceholder": "Question, subject or topic",
+    "toReview": "To review",
+    "learned": "Learned",
+    "markLearned": "Mark as learned",
+    "markUnlearned": "Move back to review",
+    "learnedToast": "Marked as learned",
+    "unlearned": "Moved back to review",
+    "empty": "Your mistake notebook is empty",
+    "emptyHint": "Questions you save with “Save mistakes” after an exam or practice appear here.",
+    "retryAll_one": "Retry {{count}} question",
+    "retryAll_other": "Retry {{count}} questions",
+    "retryTitle": "Retry your mistakes",
+    "retryHint": "Questions you answer correctly are marked as learned.",
+    "learnedCount_one": "{{count}} question marked as learned",
+    "learnedCount_other": "{{count}} questions marked as learned"
+  },
+  "goals": {
+    "description": "Set your weekly goals and tick them off as you go.",
+    "thisWeek": "My goals this week",
+    "new": "New goal",
+    "placeholder": "E.g. solve 20 reading questions",
+    "max": "You can add up to 10 goals.",
+    "ideas": "Ideas:",
+    "suggestions": {
+      "s1": "Read for 20 minutes every day",
+      "s2": "Retry 10 questions from my mistake notebook",
+      "s3": "Take one mock exam"
+    },
+    "added": "Goal added",
+    "removed": "Goal removed",
+    "progressTitle": "Weekly progress",
+    "start": "Add your first goal!"
+  },
+  "practice": {
+    "description": "Pick a subject and topic and solve as many questions as you like.",
+    "setup": "Practice settings",
+    "mixed": "Mixed",
+    "mode": "Mode",
+    "modes": {
+      "practice": "Practice",
+      "exam": "Exam rehearsal"
+    },
+    "modeHint": {
+      "practice": "You see the correct answer and explanation after each question.",
+      "exam": "You are timed and see the answers at the end."
+    },
+    "start": "Start",
+    "quizTitle": "{{subject}} — {{topic}}",
+    "suggested": "Suggested for you",
+    "suggestedHint": "Topics where your score is lowest.",
+    "noWeak": "No weak topics right now. Great!"
+  },
+  "mocks": {
+    "description": "Mock exams in LGS and YKS format.",
+    "empty": "No mock exams available right now",
+    "assignedBy": "Assigned by {{name}}",
+    "begin": "Start the mock exam",
+    "rule1_one": "{{count}} question, {{minutes}} minutes. The timer does not stop once started.",
+    "rule1_other": "{{count}} questions, {{minutes}} minutes. The timer does not stop once started.",
+    "rule2Lgs": "LGS rule: 3 wrong answers cancel 1 correct answer.",
+    "rule2Yks": "YKS rule: 4 wrong answers cancel 1 correct answer.",
+    "rule3": "Your answers are submitted automatically when time runs out.",
+    "net": "Net",
+    "saved": "Your mock exam result was saved",
+    "resultTitle": "Your mock exam result",
+    "resultLine": "{{correct}} correct · {{wrong}} wrong · {{blank}} blank",
+    "scoreNote": "The score is an estimate calculated from your nets; it is not an official exam score.",
+    "toHistory": "Go to mock history"
+  },
+  "history": {
+    "description": "Mock exams you have taken and how your net score is developing.",
+    "summary": "Mock exam summary",
+    "empty": "You have not taken a mock exam yet",
+    "lastNet": "Latest net",
+    "bestNet": "Best net",
+    "attempts": "Mock exams taken",
+    "vsPrevious": "vs. previous",
+    "trend": "Net score trend",
+    "trendHint": "Your total net in {{exam}} mock exams",
+    "trendAria": "Net score by mock exam",
+    "bySubject": "{{title}} — net by subject",
+    "all": "All mock exams",
+    "exam": "Mock exam",
+    "score": "Estimated score",
+    "scoreNote": "The estimated score is calculated from nets; it is not an official ÖSYM/MEB score."
+  },
+  "interests": {
+    "description": "Mark your interests and skills; suggestions are based on them.",
+    "title": "My interests",
+    "pickHint_one": "{{count}} selected · pick as many as you like",
+    "pickHint_other": "{{count}} selected · pick as many as you like",
+    "items": {
+      "technology": "Technology",
+      "science": "Science",
+      "health": "Health",
+      "math": "Mathematics",
+      "art": "Art",
+      "design": "Design",
+      "music": "Music",
+      "sports": "Sports",
+      "nature": "Nature & environment",
+      "business": "Business & entrepreneurship",
+      "law": "Law & justice",
+      "education": "Education",
+      "languages": "Foreign languages",
+      "social": "People & society",
+      "history": "History",
+      "games": "Games & coding"
+    },
+    "skillsTitle": "My skills",
+    "skillsHint": "Rate yourself from 1 to 5.",
+    "skills": {
+      "analytical": "Analytical thinking",
+      "creative": "Creativity",
+      "communication": "Communication",
+      "teamwork": "Teamwork",
+      "languages": "Language skills",
+      "handsOn": "Hands-on skills"
+    },
+    "level": "Level {{level}}",
+    "scale": "1 = needs work · 5 = very strong",
+    "updated": "Last updated",
+    "never": "Not saved yet",
+    "saved": "Your interest profile was saved",
+    "toMajors": "See program suggestions"
+  },
+  "preferences": {
+    "descriptionLgs": "Explore high schools by LGS score, see your chances and add them to your saved list.",
+    "descriptionYks": "Explore university programs by ranking and add them to your saved list.",
+    "yourScore": "Your LGS score",
+    "scoreRange": "Enter a score between 100 and 500.",
+    "fromMock": "From your latest mock exam: {{score}}",
+    "howLgs": "The chance is a rough estimate based on how far your score is from the school’s latest base score.",
+    "scoreType": "Score type",
+    "yourRank": "Your ranking",
+    "rankHint": "Enter the ranking from your mock or exam result.",
+    "howYks": "The chance is a rough estimate based on how far your ranking is from the program’s latest base ranking.",
+    "chanceLabel": "Chance",
+    "chance": {
+      "safe": "Safe",
+      "match": "Match",
+      "reach": "Reach"
+    },
+    "chanceNote": "Not a guarantee; it changes with quotas and from year to year.",
+    "school": "High school",
+    "program": "Program",
+    "baseScore": "Base score",
+    "baseRank": "Base ranking",
+    "inList": "In your list",
+    "added": "{{name}} was added to your list",
+    "searchSchools": "School name, district or type",
+    "searchPrograms": "University, program or city",
+    "allCities": "All cities",
+    "state": "State",
+    "foundation": "Foundation",
+    "empty": "Nothing matches these criteria"
+  },
+  "majors": {
+    "description": "University programs that best match your interests and skills.",
+    "editProfile": "Edit my interest profile",
+    "basedOn": "Based on",
+    "method": "The match is calculated from how your interests overlap with the program (60%) and your ratings of the skills it needs (40%). It is guidance — the decision is yours.",
+    "match": "match",
+    "matchAria": "{{name}} match: {{value}} percent",
+    "topPick": "Top match",
+    "why": "Why it is suggested",
+    "careers": "Related careers",
+    "programCount_one": "{{count}} program in the catalogue",
+    "programCount_other": "{{count}} programs in the catalogue",
+    "toCareers": "Careers",
+    "toPrograms": "See programs",
+    "empty": "No suggestions yet",
+    "emptyHint": "Suggestions appear here once you mark your interests and skills."
+  },
+  "careers": {
+    "description": "Explore careers, the skills they need and related programs.",
+    "searchPlaceholder": "Career, skill or program",
+    "field": "Field",
+    "allFields": "All fields",
+    "outlook": "Job outlook",
+    "allOutlooks": "All",
+    "outlookLevel": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Limited"
+    },
+    "forYou": "For you",
+    "skills": "Key skills",
+    "programs": "Related programs",
+    "empty": "No careers found",
+    "count_one": "{{count}} career",
+    "count_other": "{{count}} careers"
+  },
+  "roadmap": {
+    "description": "Plan the steps from today to your career and tick them off as you go.",
+    "add": "Add step",
+    "addTo": "Add a step to {{phase}}",
+    "editTitle": "Edit step",
+    "progress": "Roadmap progress",
+    "progressAria": "{{done}} of {{total}} steps completed",
+    "doneOf": "{{done}}/{{total}} steps",
+    "stage": "Stage {{n}}",
+    "phase": {
+      "now": "Now",
+      "thisYear": "This year",
+      "university": "University",
+      "career": "Career"
+    },
+    "phaseLabel": "Stage",
+    "stepTitle": "Step",
+    "stepPlaceholder": "E.g. join the coding club",
+    "stepDescription": "Description (optional)",
+    "emptyPhase": "No steps in this stage yet.",
+    "max_one": "You can add up to {{count}} step.",
+    "max_other": "You can add up to {{count}} steps.",
+    "added": "Step added",
+    "updated": "Step updated",
+    "removed": "Step removed",
+    "deleteTitle": "Delete this step?",
+    "deleteMessage": "“{{title}}” will be removed from your roadmap."
+  },
+  "saved": {
+    "descriptionLgs": "Order the high schools you like, add notes and print.",
+    "descriptionYks": "Order the programs you like, add notes and print. Up to 24 choices can be made in YKS.",
+    "title": "My saved list",
+    "count_one": "{{count}} choice",
+    "count_other": "{{count}} choices",
+    "notOfficial": "This is your personal working list; it does not replace the official application.",
+    "kind": {
+      "school": "High school",
+      "program": "Program"
+    },
+    "note": "Note",
+    "editNote": "Add note",
+    "noteHint_one": "{{count}} character left",
+    "noteHint_other": "{{count}} characters left",
+    "noteSaved": "Note saved",
+    "moved": "{{name}} moved to position {{position}}",
+    "print": "Print",
+    "empty": "Your saved list is empty",
+    "emptyHint": "Save the ones you like from the Preference assistant with “Add to my list”.",
+    "removeTitle": "Remove from the list?",
+    "removeMessage": "{{name}} will be removed from your saved list.",
+    "removed": "Removed from the list"
+  }
+}

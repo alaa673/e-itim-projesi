@@ -1,0 +1,269 @@
+/*
+ * PUSULA design tokens — light theme, shared palette and role palettes ("R G B" triplets for Tailwind alpha).
+ * Generated from the audited palette (text ≥4.5:1, large/UI ≥3:1). Dark values live in themes.css.
+ * Layers: 1) shared tokens · 2) raw role palettes · 3) role → semantic mapping on :root and every [data-role].
+ */
+
+:root {
+  /* Surfaces & text */
+  --background: 251 248 243; /* #FBF8F3 */
+  --surface: 255 255 255; /* #FFFFFF */
+  --surface-muted: 246 242 236; /* #F6F2EC */
+  --surface-elevated: 255 255 255; /* #FFFFFF */
+  --foreground: 29 20 51; /* #1D1433 */
+  --muted-foreground: 98 90 116; /* #625A74 */
+  --border: 236 229 218; /* #ECE5DA */
+  --input: 143 136 160; /* #8F88A0 */
+  --field: 247 244 251; /* #F7F4FB */
+  --overlay: 18 10 36; /* #120A24 */
+  /* Lime — shared PUSULA highlight (active navigation, achievements) */
+  --lime: 212 244 106; /* #D4F46A */
+  --lime-foreground: 29 20 51; /* #1D1433 */
+  --lime-soft: 241 251 210; /* #F1FBD2 */
+  --lime-ink: 74 122 12; /* #4A7A0C */
+  /* Status — always paired with an icon or text */
+  --success: 39 107 43; /* #276B2B */
+  --warning: 143 82 6; /* #8F5206 */
+  --danger: 184 42 69; /* #B82A45 */
+  --info: 47 91 211; /* #2F5BD3 */
+  --danger-foreground: 255 255 255; /* #FFFFFF */
+  /* Achievement (coral) — learning milestones */
+  --achievement: 255 138 92; /* #FF8A5C */
+  --achievement-ink: 178 68 27; /* #B2441B */
+  --achievement-soft: 255 239 230; /* #FFEFE6 */
+  /* Pastel card tints + their text-safe inks */
+  --tint-violet: 241 235 255; /* #F1EBFF */
+  --tint-mint: 233 246 230; /* #E9F6E6 */
+  --tint-peach: 255 240 229; /* #FFF0E5 */
+  --tint-sky: 231 241 255; /* #E7F1FF */
+  --ink-violet: 91 47 208; /* #5B2FD0 */
+  --ink-mint: 47 116 41; /* #2F7429 */
+  --ink-peach: 178 68 27; /* #B2441B */
+  --ink-sky: 31 95 194; /* #1F5FC2 */
+  --ink-amber: 134 85 0; /* #865500 */
+  /* Charts: categorical slots in fixed, colour-blind-checked order + chrome */
+  --chart-1: 103 87 232; /* #6757E8 */
+  --chart-2: 255 138 112; /* #FF8A70 */
+  --chart-3: 39 197 230; /* #27C5E6 */
+  --chart-4: 232 164 25; /* #E8A419 */
+  --chart-5: 25 168 138; /* #19A88A */
+  --chart-grid: 238 233 242; /* #EEE9F2 */
+  --chart-axis: 207 200 218; /* #CFC8DA */
+  /* Diverging score scale for heat cells */
+  --heat-1: 199 55 82; /* #C73752 */
+  --heat-2: 246 195 202; /* #F6C3CA */
+  --heat-3: 238 234 243; /* #EEEAF3 */
+  --heat-4: 201 194 250; /* #C9C2FA */
+  --heat-5: 90 73 219; /* #5A49DB */
+  /* Brand illustration colours */
+  --brand-violet: 109 63 224; /* #6D3FE0 */
+  --brand-lime: 212 244 106; /* #D4F46A */
+  --brand-coral: 255 138 92; /* #FF8A5C */
+  --brand-sky: 79 168 255; /* #4FA8FF */
+  --brand-teal: 25 168 138; /* #19A88A */
+  --brand-amber: 255 197 61; /* #FFC53D */
+  --shadow-card: 0 1px 2px rgb(29 20 51 / 0.04), 0 6px 20px -10px rgb(29 20 51 / 0.12);
+  --shadow-pop: 0 28px 56px -20px rgb(29 20 51 / 0.28), 0 6px 14px rgb(29 20 51 / 0.06);
+  color-scheme: light;
+}
+
+/* Brand default — PUSULA violet (login, error pages) */
+:root {
+  --role-primary: 108 59 230; /* #6C3BE6 */
+  --role-primary-hover: 90 43 208; /* #5A2BD0 */
+  --role-primary-foreground: 255 255 255; /* #FFFFFF */
+  --role-ink: 38 16 79; /* #26104F */
+  --role-ink-foreground: 255 255 255; /* #FFFFFF */
+  --role-accent: 155 123 255; /* #9B7BFF */
+  --role-accent-soft: 240 234 255; /* #F0EAFF */
+  --role-accent-ink: 91 47 208; /* #5B2FD0 */
+  --role-ring: 108 59 230; /* #6C3BE6 */
+  --role-chart-emphasis: 108 59 230; /* #6C3BE6 */
+  --role-banner-from: 230 218 255; /* #E6DAFF */
+  --role-banner-to: 245 239 255; /* #F5EFFF */
+  --role-banner-ink: 38 16 79; /* #26104F */
+  --role-sidebar: 42 20 88; /* #2A1458 */
+  --role-sidebar-2: 28 12 63; /* #1C0C3F */
+  --role-sidebar-foreground: 244 239 255; /* #F4EFFF */
+  --role-sidebar-muted: 191 178 230; /* #BFB2E6 */
+  --role-sidebar-hover: 58 34 114; /* #3A2272 */
+  --role-sidebar-border: 61 38 114; /* #3D2672 */
+  --role-sidebar-hill: 74 46 138; /* #4A2E8A */
+  --role-primary-dark: 122 79 240; /* #7A4FF0 */
+  --role-primary-hover-dark: 106 63 224; /* #6A3FE0 */
+  --role-primary-foreground-dark: 255 255 255; /* #FFFFFF */
+  --role-ink-dark: 233 225 255; /* #E9E1FF */
+  --role-ink-foreground-dark: 29 20 51; /* #1D1433 */
+  --role-accent-dark: 169 139 255; /* #A98BFF */
+  --role-accent-soft-dark: 42 32 80; /* #2A2050 */
+  --role-accent-ink-dark: 201 182 255; /* #C9B6FF */
+  --role-ring-dark: 169 139 255; /* #A98BFF */
+  --role-chart-emphasis-dark: 169 139 255; /* #A98BFF */
+  --role-banner-from-dark: 45 26 99; /* #2D1A63 */
+  --role-banner-to-dark: 27 18 64; /* #1B1240 */
+  --role-banner-ink-dark: 255 255 255; /* #FFFFFF */
+  --role-sidebar-dark: 30 14 68; /* #1E0E44 */
+  --role-sidebar-2-dark: 18 8 43; /* #12082B */
+  --role-sidebar-foreground-dark: 244 239 255; /* #F4EFFF */
+  --role-sidebar-muted-dark: 179 166 218; /* #B3A6DA */
+  --role-sidebar-hover-dark: 46 26 94; /* #2E1A5E */
+  --role-sidebar-border-dark: 46 27 92; /* #2E1B5C */
+  --role-sidebar-hill-dark: 56 33 108; /* #38216C */
+}
+
+/* Yönetici — royal blue: professional, organised */
+[data-role='admin'] {
+  --role-primary: 61 95 217; /* #3D5FD9 */
+  --role-primary-hover: 47 78 192; /* #2F4EC0 */
+  --role-primary-foreground: 255 255 255; /* #FFFFFF */
+  --role-ink: 21 33 90; /* #15215A */
+  --role-ink-foreground: 255 255 255; /* #FFFFFF */
+  --role-accent: 124 140 255; /* #7C8CFF */
+  --role-accent-soft: 233 237 255; /* #E9EDFF */
+  --role-accent-ink: 46 76 192; /* #2E4CC0 */
+  --role-ring: 61 95 217; /* #3D5FD9 */
+  --role-chart-emphasis: 65 105 225; /* #4169E1 */
+  --role-banner-from: 221 229 255; /* #DDE5FF */
+  --role-banner-to: 239 234 255; /* #EFEAFF */
+  --role-banner-ink: 21 33 90; /* #15215A */
+  --role-sidebar: 23 36 88; /* #172458 */
+  --role-sidebar-2: 14 23 61; /* #0E173D */
+  --role-sidebar-foreground: 238 242 255; /* #EEF2FF */
+  --role-sidebar-muted: 175 188 232; /* #AFBCE8 */
+  --role-sidebar-hover: 36 53 114; /* #243572 */
+  --role-sidebar-border: 38 54 111; /* #26366F */
+  --role-sidebar-hill: 42 61 128; /* #2A3D80 */
+  --role-primary-dark: 65 105 225; /* #4169E1 */
+  --role-primary-hover-dark: 52 89 207; /* #3459CF */
+  --role-primary-foreground-dark: 255 255 255; /* #FFFFFF */
+  --role-ink-dark: 227 233 255; /* #E3E9FF */
+  --role-ink-foreground-dark: 21 33 90; /* #15215A */
+  --role-accent-dark: 142 164 255; /* #8EA4FF */
+  --role-accent-soft-dark: 31 42 85; /* #1F2A55 */
+  --role-accent-ink-dark: 175 192 255; /* #AFC0FF */
+  --role-ring-dark: 142 164 255; /* #8EA4FF */
+  --role-chart-emphasis-dark: 126 156 246; /* #7E9CF6 */
+  --role-banner-from-dark: 28 44 107; /* #1C2C6B */
+  --role-banner-to-dark: 22 23 63; /* #16173F */
+  --role-banner-ink-dark: 255 255 255; /* #FFFFFF */
+  --role-sidebar-dark: 18 29 73; /* #121D49 */
+  --role-sidebar-2-dark: 10 17 48; /* #0A1130 */
+  --role-sidebar-foreground-dark: 238 242 255; /* #EEF2FF */
+  --role-sidebar-muted-dark: 163 177 224; /* #A3B1E0 */
+  --role-sidebar-hover-dark: 29 43 98; /* #1D2B62 */
+  --role-sidebar-border-dark: 30 44 96; /* #1E2C60 */
+  --role-sidebar-hill-dark: 34 51 111; /* #22336F */
+}
+
+/* Öğretmen — teal green: focused, analytical */
+[data-role='teacher'] {
+  --role-primary: 11 127 107; /* #0B7F6B */
+  --role-primary-hover: 8 106 89; /* #086A59 */
+  --role-primary-foreground: 255 255 255; /* #FFFFFF */
+  --role-ink: 11 58 51; /* #0B3A33 */
+  --role-ink-foreground: 255 255 255; /* #FFFFFF */
+  --role-accent: 43 196 162; /* #2BC4A2 */
+  --role-accent-soft: 226 245 238; /* #E2F5EE */
+  --role-accent-ink: 10 107 88; /* #0A6B58 */
+  --role-ring: 11 127 107; /* #0B7F6B */
+  --role-chart-emphasis: 15 157 138; /* #0F9D8A */
+  --role-banner-from: 215 242 231; /* #D7F2E7 */
+  --role-banner-to: 239 234 255; /* #EFEAFF */
+  --role-banner-ink: 11 58 51; /* #0B3A33 */
+  --role-sidebar: 13 59 53; /* #0D3B35 */
+  --role-sidebar-2: 7 40 35; /* #072823 */
+  --role-sidebar-foreground: 234 251 246; /* #EAFBF6 */
+  --role-sidebar-muted: 166 210 200; /* #A6D2C8 */
+  --role-sidebar-hover: 22 81 74; /* #16514A */
+  --role-sidebar-border: 26 79 72; /* #1A4F48 */
+  --role-sidebar-hill: 29 92 83; /* #1D5C53 */
+  --role-primary-dark: 11 127 107; /* #0B7F6B */
+  --role-primary-hover-dark: 9 112 96; /* #097060 */
+  --role-primary-foreground-dark: 255 255 255; /* #FFFFFF */
+  --role-ink-dark: 215 245 236; /* #D7F5EC */
+  --role-ink-foreground-dark: 11 58 51; /* #0B3A33 */
+  --role-accent-dark: 63 214 179; /* #3FD6B3 */
+  --role-accent-soft-dark: 22 51 46; /* #16332E */
+  --role-accent-ink-dark: 127 230 204; /* #7FE6CC */
+  --role-ring-dark: 63 214 179; /* #3FD6B3 */
+  --role-chart-emphasis-dark: 52 198 177; /* #34C6B1 */
+  --role-banner-from-dark: 15 62 55; /* #0F3E37 */
+  --role-banner-to-dark: 26 26 62; /* #1A1A3E */
+  --role-banner-ink-dark: 255 255 255; /* #FFFFFF */
+  --role-sidebar-dark: 10 45 41; /* #0A2D29 */
+  --role-sidebar-2-dark: 5 28 25; /* #051C19 */
+  --role-sidebar-foreground-dark: 234 251 246; /* #EAFBF6 */
+  --role-sidebar-muted-dark: 156 200 190; /* #9CC8BE */
+  --role-sidebar-hover-dark: 18 63 57; /* #123F39 */
+  --role-sidebar-border-dark: 20 62 56; /* #143E38 */
+  --role-sidebar-hill-dark: 23 74 67; /* #174A43 */
+}
+
+/* Öğrenci — violet: engaging, motivating */
+[data-role='student'] {
+  --role-primary: 108 59 230; /* #6C3BE6 */
+  --role-primary-hover: 90 43 208; /* #5A2BD0 */
+  --role-primary-foreground: 255 255 255; /* #FFFFFF */
+  --role-ink: 38 16 79; /* #26104F */
+  --role-ink-foreground: 255 255 255; /* #FFFFFF */
+  --role-accent: 155 123 255; /* #9B7BFF */
+  --role-accent-soft: 240 234 255; /* #F0EAFF */
+  --role-accent-ink: 91 47 208; /* #5B2FD0 */
+  --role-ring: 108 59 230; /* #6C3BE6 */
+  --role-chart-emphasis: 108 59 230; /* #6C3BE6 */
+  --role-banner-from: 230 218 255; /* #E6DAFF */
+  --role-banner-to: 245 239 255; /* #F5EFFF */
+  --role-banner-ink: 38 16 79; /* #26104F */
+  --role-sidebar: 42 20 88; /* #2A1458 */
+  --role-sidebar-2: 28 12 63; /* #1C0C3F */
+  --role-sidebar-foreground: 244 239 255; /* #F4EFFF */
+  --role-sidebar-muted: 191 178 230; /* #BFB2E6 */
+  --role-sidebar-hover: 58 34 114; /* #3A2272 */
+  --role-sidebar-border: 61 38 114; /* #3D2672 */
+  --role-sidebar-hill: 74 46 138; /* #4A2E8A */
+  --role-primary-dark: 122 79 240; /* #7A4FF0 */
+  --role-primary-hover-dark: 106 63 224; /* #6A3FE0 */
+  --role-primary-foreground-dark: 255 255 255; /* #FFFFFF */
+  --role-ink-dark: 233 225 255; /* #E9E1FF */
+  --role-ink-foreground-dark: 29 20 51; /* #1D1433 */
+  --role-accent-dark: 169 139 255; /* #A98BFF */
+  --role-accent-soft-dark: 42 32 80; /* #2A2050 */
+  --role-accent-ink-dark: 201 182 255; /* #C9B6FF */
+  --role-ring-dark: 169 139 255; /* #A98BFF */
+  --role-chart-emphasis-dark: 169 139 255; /* #A98BFF */
+  --role-banner-from-dark: 45 26 99; /* #2D1A63 */
+  --role-banner-to-dark: 27 18 64; /* #1B1240 */
+  --role-banner-ink-dark: 255 255 255; /* #FFFFFF */
+  --role-sidebar-dark: 30 14 68; /* #1E0E44 */
+  --role-sidebar-2-dark: 18 8 43; /* #12082B */
+  --role-sidebar-foreground-dark: 244 239 255; /* #F4EFFF */
+  --role-sidebar-muted-dark: 179 166 218; /* #B3A6DA */
+  --role-sidebar-hover-dark: 46 26 94; /* #2E1A5E */
+  --role-sidebar-border-dark: 46 27 92; /* #2E1B5C */
+  --role-sidebar-hill-dark: 56 33 108; /* #38216C */
+}
+
+/* Role → semantic tokens (light) */
+:root,
+[data-role] {
+  --primary: var(--role-primary);
+  --primary-hover: var(--role-primary-hover);
+  --primary-foreground: var(--role-primary-foreground);
+  --ink: var(--role-ink);
+  --ink-foreground: var(--role-ink-foreground);
+  --accent: var(--role-accent);
+  --accent-soft: var(--role-accent-soft);
+  --accent-ink: var(--role-accent-ink);
+  --ring: var(--role-ring);
+  --chart-emphasis: var(--role-chart-emphasis);
+  --banner-from: var(--role-banner-from);
+  --banner-to: var(--role-banner-to);
+  --banner-ink: var(--role-banner-ink);
+  --sidebar: var(--role-sidebar);
+  --sidebar-2: var(--role-sidebar-2);
+  --sidebar-foreground: var(--role-sidebar-foreground);
+  --sidebar-muted: var(--role-sidebar-muted);
+  --sidebar-hover: var(--role-sidebar-hover);
+  --sidebar-border: var(--role-sidebar-border);
+  --sidebar-hill: var(--role-sidebar-hill);
+}

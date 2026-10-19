@@ -1,0 +1,135 @@
+{
+  "announcements": {
+    "title": "Announcements",
+    "description": {
+      "admin": "Publish announcements to the whole school, levels or classes; schedule them ahead.",
+      "teacher": "Follow school announcements and post to your classes.",
+      "student": "Announcements from your school and teachers."
+    },
+    "add": "New announcement",
+    "editTitle": "Edit announcement",
+    "viewLabel": "Announcement view",
+    "views": {
+      "feed": "For me",
+      "mine": "Posted by me"
+    },
+    "searchPlaceholder": "Title or text",
+    "empty": "No announcements yet",
+    "pinned": "Pinned",
+    "more": "Read more",
+    "less": "Show less",
+    "status": {
+      "published": "Published",
+      "scheduled": "Scheduled",
+      "draft": "Draft"
+    },
+    "statusAction": {
+      "published": "Publish now",
+      "scheduled": "Schedule",
+      "draft": "Keep as draft"
+    },
+    "audiences": {
+      "all": "Whole school",
+      "teachers": "Teachers",
+      "students": "All students",
+      "primary": "Primary students",
+      "middle": "Middle school students",
+      "high": "High school students"
+    },
+    "classAudience": "Class {{cls}}",
+    "body": "Text",
+    "publishAt": "Publish at",
+    "publishAtHint": "Used only when \"Schedule\" is selected.",
+    "pin": "Pin to top",
+    "pinHint": "Pinned announcements stay at the top.",
+    "published": "Announcement published.",
+    "saved": "Announcement saved.",
+    "deleteTitle": "Delete announcement?",
+    "deleteMessage": "\"{{title}}\" will be removed for everyone.",
+    "deleted": "Announcement deleted."
+  },
+  "calendar": {
+    "title": "Calendar",
+    "description": {
+      "teacher": "See your lessons, exams, due dates and meetings in one place.",
+      "student": "Your exams, homework deadlines and meetings.",
+      "admin": "School calendar."
+    },
+    "addEvent": "Add event",
+    "addPersonal": "Add reminder",
+    "prev": "Previous month",
+    "next": "Next month",
+    "view": "View",
+    "month": "Month",
+    "list": "List",
+    "eventCount_one": "{{count}} event",
+    "eventCount_other": "{{count}} events",
+    "noEvents": "No events on this day.",
+    "upcoming": "Upcoming events",
+    "noUpcoming": "No upcoming events.",
+    "kinds": {
+      "lesson": "Lesson",
+      "exam": "Exam",
+      "homework": "Homework due",
+      "activity": "Activity",
+      "meeting": "Meeting",
+      "other": "Other"
+    },
+    "noClass": "Not linked to a class",
+    "dueAt": "Due",
+    "added": "Added to the calendar.",
+    "removed": "Removed from the calendar."
+  },
+  "meetings": {
+    "title": "Meetings",
+    "description": {
+      "teacher": "Plan student and parent meetings and join online sessions.",
+      "student": "Meetings and online sessions with your teachers.",
+      "admin": "School meetings."
+    },
+    "add": "Schedule meeting",
+    "create": "Schedule",
+    "viewLabel": "Meeting list",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "emptyUpcoming": "No meetings scheduled",
+    "emptyPast": "No past meetings",
+    "live": "Starting soon",
+    "cancelled": "Cancelled",
+    "done": "Completed",
+    "cancel": "Cancel meeting",
+    "cancelTitle": "Cancel this meeting?",
+    "cancelMessage": "\"{{title}}\" will be cancelled and participants notified.",
+    "cancelledToast": "Meeting cancelled.",
+    "copied": "Link copied.",
+    "open": "Open meeting",
+    "demoLink": "In demo mode this address is a sample and does not open a meeting room.",
+    "participantsPlaceholder": "E.g. 8-A parents, Mert Arslan",
+    "participantsHint": "Separate several participants with commas.",
+    "agenda": "Agenda",
+    "created": "Meeting scheduled."
+  },
+  "messages": {
+    "title": "Messages",
+    "description": {
+      "teacher": "Message your students one to one.",
+      "student": "Write to your teachers and the guidance service.",
+      "admin": "Internal messages."
+    },
+    "new": "New message",
+    "listLabel": "Conversations",
+    "search": "Search people",
+    "noConversations": "No conversations found.",
+    "you": "You",
+    "unread_one": "{{count}} unread message",
+    "unread_other": "{{count}} unread messages",
+    "threadWith": "Conversation with {{name}}",
+    "pick": "Choose a conversation",
+    "pickHint": "Pick someone on the left or start a new message.",
+    "firstMessage": "Send the first message.",
+    "compose": "Write a message",
+    "placeholder": "Write a message… (Enter to send, Shift+Enter for a new line)",
+    "to": "To",
+    "policy": "Messages are stored under school policy and may be reviewed by the administration when needed."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "announcements": {
+    "title": "Duyurular",
+    "description": {
+      "admin": "Kuruma, kademelere veya sınıflara duyuru yayınlayın; ileri tarihe planlayın.",
+      "teacher": "Okul duyurularını takip edin ve sınıflarınıza duyuru yapın.",
+      "student": "Okulunun ve öğretmenlerinin duyuruları."
+    },
+    "add": "Duyuru oluştur",
+    "editTitle": "Duyuruyu düzenle",
+    "viewLabel": "Duyuru görünümü",
+    "views": {
+      "feed": "Bana gelenler",
+      "mine": "Yayınladıklarım"
+    },
+    "searchPlaceholder": "Başlık veya içerik",
+    "empty": "Henüz duyuru yok",
+    "pinned": "Sabit",
+    "more": "Devamını oku",
+    "less": "Daha az göster",
+    "status": {
+      "published": "Yayında",
+      "scheduled": "Planlandı",
+      "draft": "Taslak"
+    },
+    "statusAction": {
+      "published": "Hemen yayınla",
+      "scheduled": "İleri tarihte yayınla",
+      "draft": "Taslak olarak sakla"
+    },
+    "audiences": {
+      "all": "Tüm kurum",
+      "teachers": "Öğretmenler",
+      "students": "Tüm öğrenciler",
+      "primary": "İlkokul öğrencileri",
+      "middle": "Ortaokul öğrencileri",
+      "high": "Lise öğrencileri"
+    },
+    "classAudience": "{{cls}} sınıfı",
+    "body": "Duyuru metni",
+    "publishAt": "Yayın zamanı",
+    "publishAtHint": "Yalnızca \"İleri tarihte yayınla\" seçiliyse kullanılır.",
+    "pin": "En üstte sabitle",
+    "pinHint": "Sabit duyurular listenin başında kalır.",
+    "published": "Duyuru yayınlandı.",
+    "saved": "Duyuru kaydedildi.",
+    "deleteTitle": "Duyuru silinsin mi?",
+    "deleteMessage": "\"{{title}}\" duyurusu herkes için kaldırılacak.",
+    "deleted": "Duyuru silindi."
+  },
+  "calendar": {
+    "title": "Takvim",
+    "description": {
+      "teacher": "Derslerinizi, sınavlarınızı, teslim tarihlerini ve görüşmelerinizi tek yerde görün.",
+      "student": "Sınavların, ödev teslimlerin ve görüşmelerin.",
+      "admin": "Kurum takvimi."
+    },
+    "addEvent": "Etkinlik ekle",
+    "addPersonal": "Hatırlatma ekle",
+    "prev": "Önceki ay",
+    "next": "Sonraki ay",
+    "view": "Görünüm",
+    "month": "Ay",
+    "list": "Liste",
+    "eventCount_one": "{{count}} etkinlik",
+    "eventCount_other": "{{count}} etkinlik",
+    "noEvents": "Bu gün için etkinlik yok.",
+    "upcoming": "Yaklaşan etkinlikler",
+    "noUpcoming": "Yaklaşan etkinlik yok.",
+    "kinds": {
+      "lesson": "Ders",
+      "exam": "Sınav",
+      "homework": "Ödev teslimi",
+      "activity": "Etkinlik",
+      "meeting": "Görüşme",
+      "other": "Diğer"
+    },
+    "noClass": "Sınıfa bağlı değil",
+    "dueAt": "Son teslim",
+    "added": "Takvime eklendi.",
+    "removed": "Takvimden kaldırıldı."
+  },
+  "meetings": {
+    "title": "Toplantılar",
+    "description": {
+      "teacher": "Öğrenci ve veli görüşmelerinizi planlayın, çevrim içi derslere katılın.",
+      "student": "Öğretmenlerinle planlanan görüşmeler ve çevrim içi dersler.",
+      "admin": "Kurum toplantıları."
+    },
+    "add": "Toplantı planla",
+    "create": "Planla",
+    "viewLabel": "Toplantı listesi",
+    "upcoming": "Yaklaşan",
+    "past": "Geçmiş",
+    "emptyUpcoming": "Planlanmış toplantı yok",
+    "emptyPast": "Geçmiş toplantı yok",
+    "live": "Başlamak üzere",
+    "cancelled": "İptal edildi",
+    "done": "Tamamlandı",
+    "cancel": "Toplantıyı iptal et",
+    "cancelTitle": "Toplantı iptal edilsin mi?",
+    "cancelMessage": "\"{{title}}\" iptal edilecek ve katılımcılara bildirim gönderilecek.",
+    "cancelledToast": "Toplantı iptal edildi.",
+    "copied": "Bağlantı kopyalandı.",
+    "open": "Toplantıyı aç",
+    "demoLink": "Demo modunda bu adres örnektir ve bir toplantı odası açmaz.",
+    "participantsPlaceholder": "Örn. 8-A velileri, Mert Arslan",
+    "participantsHint": "Birden fazla katılımcıyı virgülle ayırın.",
+    "agenda": "Gündem",
+    "created": "Toplantı planlandı."
+  },
+  "messages": {
+    "title": "Mesajlar",
+    "description": {
+      "teacher": "Öğrencilerinizle birebir yazışın.",
+      "student": "Öğretmenlerine ve rehberlik servisine yaz.",
+      "admin": "Kurum içi mesajlar."
+    },
+    "new": "Yeni mesaj",
+    "listLabel": "Konuşmalar",
+    "search": "Kişi ara",
+    "noConversations": "Konuşma bulunamadı.",
+    "you": "Sen",
+    "unread_one": "{{count}} okunmamış mesaj",
+    "unread_other": "{{count}} okunmamış mesaj",
+    "threadWith": "{{name}} ile konuşma",
+    "pick": "Bir konuşma seçin",
+    "pickHint": "Soldaki listeden bir kişi seçin veya yeni mesaj başlatın.",
+    "firstMessage": "İlk mesajı sen gönder.",
+    "compose": "Mesaj yaz",
+    "placeholder": "Mesajını yaz… (Enter: gönder, Shift+Enter: yeni satır)",
+    "to": "Alıcı",
+    "policy": "Mesajlar okul kuralları çerçevesinde saklanır ve gerektiğinde yönetim tarafından incelenebilir."
+  }
+}

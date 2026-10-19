@@ -1,0 +1,505 @@
+{
+  "progress": {
+    "title": "Konu Analizim",
+    "description": "Sınav sonuçlarına göre güçlü olduğun ve tekrar etmen gereken konular.",
+    "summaryLabel": "Gelişim özeti",
+    "summary": {
+      "average_one": "Son {{count}} sınavın ortalaması",
+      "average_other": "Son {{count}} sınavın ortalaması",
+      "last": "Son sınav",
+      "delta": "{{value}} puan",
+      "review": "Tekrar gereken konu",
+      "mistakes": "Yanlışlarım defteri",
+      "vsPrevious": "Önceki sonuca göre"
+    },
+    "timeline": {
+      "title": "Genel gidişat",
+      "description": "Sınav puanların ve sınıf ortalaması",
+      "aria": "Son sınavlardaki puanlarının sınıf ortalamasıyla karşılaştırıldığı çizgi grafik",
+      "me": "Benim puanım",
+      "class": "Sınıf ortalaması"
+    },
+    "topics": {
+      "title": "Konu analizi",
+      "description": "En zayıf konudan en güçlüye sıralı",
+      "subject": "Ders",
+      "threshold": "Tekrar sınırı (%{{value}})",
+      "review": "Tekrar et",
+      "previous": "Önceki sonuç",
+      "firstTime": "İlk kez ölçüldü",
+      "improved": "Öncekine göre {{value}} puan arttı",
+      "dropped": "Öncekine göre {{value}} puan düştü",
+      "practice": "Konu çalışmalarına git"
+    },
+    "support": {
+      "title": "Destek çalışmalarım",
+      "description": "Öğretmeninin sana özel gönderdiği alıştırmalar",
+      "questions_one": "{{count}} soru",
+      "questions_other": "{{count}} soru",
+      "withSummary": "özetli",
+      "pending": "Bekliyor",
+      "completed": "Tamamlandı",
+      "gain": "+{{value}} puan",
+      "due": "Teslim:"
+    },
+    "goals": {
+      "title": "Bu haftaki hedeflerim",
+      "description": "{{total}} hedeften {{done}} tanesi tamam",
+      "done": "Tamamlandı",
+      "open": "Devam ediyor"
+    }
+  },
+  "dashboard": {
+    "greeting": "Merhaba {{name}}!",
+    "lead": "Bugünkü yolculuğuna kaldığın yerden devam et.",
+    "title1": "Küçük adımlar.",
+    "title2": "Büyük keşifler.",
+    "note1": "Merak et",
+    "note2": "Keşfet",
+    "note3": "Öğren",
+    "note4": "Başar",
+    "continueLearning": "Öğrenmeye devam et",
+    "route": {
+      "title": "Senin öğrenme rotan",
+      "all": "Tüm dersler"
+    },
+    "course": {
+      "topics": "{{done}} / {{total}} konu",
+      "progressLabel": "{{subject}} ilerlemesi",
+      "back": "Derse dön",
+      "details": "Konu detayları"
+    },
+    "plan": {
+      "title": "Bugünün planı",
+      "empty": "Bugün için planlanmış bir şey yok. Konu çalışmalarıyla devam edebilirsin.",
+      "chip": {
+        "exam": "Soru sayısı",
+        "homework": "Teslim",
+        "meeting": "Saat"
+      }
+    },
+    "examPrep": {
+      "title": "{{exam}} hazırlığı",
+      "body": "Deneme sınavları, konu analizleri ve daha fazlası"
+    },
+    "support": {
+      "title": "Birlikte güçlendirelim",
+      "lead": "{{teacher}}, {{topic}} konusu için sana bir çalışma hazırladı.",
+      "noneLead": "Öğretmenlerinin gönderdiği destek çalışmaları burada görünür.",
+      "withSummary_one": "Konu özeti + {{count}} soru",
+      "withSummary_other": "Konu özeti + {{count}} soru",
+      "body": "{{topic}} konusunu pekiştirmen için sana özel hazırlandı.",
+      "open": "Çalışmayı aç",
+      "none": "Bekleyen destek çalışman yok. Yanlışlarım defterinden tekrar yapabilirsin.",
+      "toMistakes": "Yanlışlarım defteri"
+    },
+    "goal": {
+      "title": "Bu haftaki hedefin",
+      "done": "çalışma tamamlandı",
+      "aria": "{{total}} hedeften {{done}} tanesi tamamlandı",
+      "remaining_one": "Bir adım daha, hedef tamam!",
+      "remaining_other": "{{count}} adım daha, hedef tamam!",
+      "complete": "Hedef tamam, harikasın!"
+    }
+  },
+  "subjects": {
+    "description": "Derslerin, üniteler ve konulardaki ilerlemen.",
+    "units_one": "{{count}} ünite",
+    "units_other": "{{count}} ünite",
+    "seeTopics": "Konuları gör",
+    "progress": "{{done}}/{{total}} konu tamamlandı",
+    "practice": "Pratik yap",
+    "materials": "Ders materyalleri",
+    "noMaterials": "Bu ders için henüz paylaşılan materyal yok.",
+    "status": {
+      "done": "Tamamlandı",
+      "inProgress": "Devam ediyor",
+      "todo": "Başlanmadı"
+    }
+  },
+  "materials": {
+    "description": "Öğretmenlerinin paylaştığı konu özetleri, PDF’ler ve sunumlar.",
+    "searchPlaceholder": "Başlık, ders veya konu",
+    "empty": "Henüz paylaşılan materyal yok",
+    "new": "Yeni",
+    "demoPdf": "Demo: Gerçek sürümde PDF dosyası burada açılır.",
+    "kinds": {
+      "summary": "Konu özeti",
+      "pdf": "PDF",
+      "presentation": "Sunum"
+    }
+  },
+  "exams": {
+    "description": "Öğretmenlerinin açtığı quizler ve sınavlar.",
+    "viewLabel": "Sınav görünümü",
+    "now": "Şimdi",
+    "upcoming": "Yaklaşan",
+    "past": "Geçmiş",
+    "empty": {
+      "now": "Şu anda açık sınav yok",
+      "upcoming": "Yaklaşan sınav yok",
+      "past": "Henüz tamamlanmış sınav yok"
+    },
+    "kinds": {
+      "quiz": "Quiz",
+      "written": "Yazılı",
+      "mock": "Deneme"
+    },
+    "status": {
+      "upcoming": "Yaklaşıyor",
+      "available": "Açık",
+      "completed": "Tamamlandı",
+      "missed": "Katılmadın"
+    },
+    "classAverage": "Sınıf ort. {{value}}",
+    "missedHint": "Bu sınava katılmadın.",
+    "opensAt": "Belirtilen saatte açılacak",
+    "readyHint": "Hazır olduğunda başla; süre başlayınca durmaz.",
+    "playerHint": "{{minutes}} dakika · Süre dolunca cevapların otomatik teslim edilir.",
+    "submitted": "Sınavın teslim edildi",
+    "mistakesSaved_one": "{{count}} soru yanlış defterine eklendi",
+    "mistakesSaved_other": "{{count}} soru yanlış defterine eklendi"
+  },
+  "homework": {
+    "description": "Ödevlerini gör, teslim et ve geri bildirimlerini oku.",
+    "viewLabel": "Ödev durumu",
+    "tabs": {
+      "todo": "Yapılacak",
+      "submitted": "Teslim edildi",
+      "graded": "Puanlandı"
+    },
+    "empty": {
+      "todo": "Bekleyen ödevin yok",
+      "submitted": "Değerlendirme bekleyen ödev yok",
+      "graded": "Henüz puanlanmış ödev yok"
+    },
+    "status": {
+      "todo": "Yapılacak",
+      "submitted": "Teslim edildi",
+      "graded": "Puanlandı"
+    },
+    "late": "Süresi geçti",
+    "instructions": "Yönerge",
+    "rubric": "Değerlendirme ölçütleri",
+    "yourSubmission": "Teslimin",
+    "score": "Puanın: {{score}}",
+    "answer": "Cevabın",
+    "answerPlaceholder": "Cevabını veya açıklamanı buraya yaz…",
+    "file": "Dosya",
+    "fileHint": "PDF, JPG, PNG veya DOCX · en fazla 10 MB",
+    "needContent": "Bir cevap yaz veya dosya ekle.",
+    "submit": "Teslim et",
+    "submittedToast": "Ödevin teslim edildi"
+  },
+  "activities": {
+    "description": "Sınıf etkinlikleri, atölyeler ve yarışmalar.",
+    "empty": "Henüz etkinlik yok",
+    "kinds": {
+      "individual": "Bireysel",
+      "group": "Grup"
+    },
+    "status": {
+      "upcoming": "Katılım açık",
+      "joined": "Katılıyorsun",
+      "completed": "Tamamlandı"
+    },
+    "join": "Katıl",
+    "joined": "“{{title}}” etkinliğine katıldın",
+    "leave": "Vazgeç",
+    "left": "Etkinlikten ayrıldın"
+  },
+  "results": {
+    "description": "Sınav, ödev ve deneme sonuçların; sınıf ortalamasıyla karşılaştır.",
+    "searchPlaceholder": "Sınav veya ödev adı",
+    "empty": "Henüz sonuç yok",
+    "item": "Değerlendirme",
+    "vsClass": "Sınıfa göre",
+    "kinds": {
+      "exam": "Sınav",
+      "homework": "Ödev",
+      "mock": "Deneme"
+    },
+    "appeal": "İtiraz et",
+    "appealTitle": "Sonuca itiraz",
+    "appealKind": "İtiraz türü",
+    "kindQuestion": "Bir soru",
+    "kindScore": "Toplam puan",
+    "questionNo": "Soru numarası",
+    "appealMessage": "Açıklaman",
+    "appealPlaceholder": "Neden itiraz ettiğini kısaca anlat…",
+    "appealNote": "İtirazın öğretmenine iletilir; sonuç bu sayfada ve bildirimlerinde görünür.",
+    "appealSent": "İtirazın öğretmenine gönderildi"
+  },
+  "support": {
+    "description": "Öğretmeninin senin için hazırladığı kişisel destek çalışmaları.",
+    "empty": "Şu anda destek çalışman yok",
+    "status": {
+      "pending": "Bekliyor",
+      "completed": "Tamamlandı"
+    },
+    "withSummary_one": "Konu özeti + {{count}} soru",
+    "withSummary_other": "Konu özeti + {{count}} soru",
+    "then": "sonra",
+    "open": "Çalışmaya başla",
+    "introTitle": "{{topic}} — birlikte güçlendirelim",
+    "introFrom": "{{teacher}} senin için hazırladı",
+    "summaryTitle": "Önce kısa bir tekrar",
+    "noSummary": "Bu konu için özet bulunamadı.",
+    "noSummaryIncluded": "Bu çalışmada konu özeti yok; doğrudan sorularla başlayabilirsin.",
+    "howItWorks": "Soruları çözdüğünde sonucun öğretmenine iletilir ve konu başarındaki değişim gösterilir.",
+    "startQuestions_one": "{{count}} soruya başla",
+    "startQuestions_other": "{{count}} soruya başla",
+    "quizTitle": "{{topic}} — destek soruları",
+    "quizHint": "Her sorudan sonra doğru cevabı ve açıklamasını göreceksin.",
+    "completedToast": "Destek çalışman tamamlandı",
+    "doneTitle": "Harika iş çıkardın!",
+    "doneBody": "{{topic}} konusundaki başarın {{before}} → {{after}}."
+  },
+  "mistakes": {
+    "description": "Yanlış yaptığın sorular burada; tekrar çöz ve öğrendiklerini işaretle.",
+    "searchPlaceholder": "Soru, ders veya konu",
+    "toReview": "Tekrar edilecek",
+    "learned": "Öğrendim",
+    "markLearned": "Öğrendim olarak işaretle",
+    "markUnlearned": "Tekrar listesine al",
+    "learnedToast": "Öğrendiklerine eklendi",
+    "unlearned": "Tekrar listesine alındı",
+    "empty": "Yanlış defterin boş",
+    "emptyHint": "Sınav veya pratikten sonra “Yanlışları kaydet” dediğin sorular burada görünür.",
+    "retryAll_one": "{{count}} soruyu tekrar çöz",
+    "retryAll_other": "{{count}} soruyu tekrar çöz",
+    "retryTitle": "Yanlışlarını tekrar çöz",
+    "retryHint": "Doğru çözdüğün sorular “Öğrendim” olarak işaretlenir.",
+    "learnedCount_one": "{{count}} soru öğrenildi olarak işaretlendi",
+    "learnedCount_other": "{{count}} soru öğrenildi olarak işaretlendi"
+  },
+  "goals": {
+    "description": "Haftalık hedeflerini belirle ve tamamladıkça işaretle.",
+    "thisWeek": "Bu haftaki hedeflerim",
+    "new": "Yeni hedef",
+    "placeholder": "Örn. 20 paragraf sorusu çöz",
+    "max": "En fazla 10 hedef ekleyebilirsin.",
+    "ideas": "Fikir:",
+    "suggestions": {
+      "s1": "Her gün 20 dakika kitap oku",
+      "s2": "Yanlış defterimden 10 soru tekrar et",
+      "s3": "Bir deneme sınavı çöz"
+    },
+    "added": "Hedef eklendi",
+    "removed": "Hedef silindi",
+    "progressTitle": "Haftalık ilerleme",
+    "start": "İlk hedefini ekle!"
+  },
+  "practice": {
+    "description": "Ders ve konu seç, istediğin kadar soru çöz.",
+    "setup": "Pratik ayarları",
+    "mixed": "Karışık",
+    "mode": "Mod",
+    "modes": {
+      "practice": "Alıştırma",
+      "exam": "Sınav provası"
+    },
+    "modeHint": {
+      "practice": "Her sorudan sonra doğru cevabı ve açıklamasını görürsün.",
+      "exam": "Süre tutulur; cevapları en sonda görürsün."
+    },
+    "start": "Başla",
+    "quizTitle": "{{subject}} — {{topic}}",
+    "suggested": "Senin için önerilen",
+    "suggestedHint": "Başarının en düşük olduğu konular.",
+    "noWeak": "Şu an zayıf konun görünmüyor. Harika!"
+  },
+  "mocks": {
+    "description": "LGS ve YKS formatında deneme sınavları.",
+    "empty": "Şu anda çözebileceğin deneme yok",
+    "assignedBy": "{{name}} atadı",
+    "begin": "Denemeye başla",
+    "rule1_one": "{{count}} soru, {{minutes}} dakika. Süre başladıktan sonra durmaz.",
+    "rule1_other": "{{count}} soru, {{minutes}} dakika. Süre başladıktan sonra durmaz.",
+    "rule2Lgs": "LGS kuralı: 3 yanlış 1 doğruyu götürür.",
+    "rule2Yks": "YKS kuralı: 4 yanlış 1 doğruyu götürür.",
+    "rule3": "Süre dolduğunda cevapların otomatik teslim edilir.",
+    "net": "Net",
+    "saved": "Deneme sonucun kaydedildi",
+    "resultTitle": "Deneme sonucun",
+    "resultLine": "{{correct}} doğru · {{wrong}} yanlış · {{blank}} boş",
+    "scoreNote": "Puan, netlerinden hesaplanan tahmini bir değerdir; resmî sınav puanı değildir.",
+    "toHistory": "Deneme geçmişine git"
+  },
+  "history": {
+    "description": "Çözdüğün denemeler ve net gelişimin.",
+    "summary": "Deneme özeti",
+    "empty": "Henüz deneme çözmedin",
+    "lastNet": "Son net",
+    "bestNet": "En iyi net",
+    "attempts": "Çözülen deneme",
+    "vsPrevious": "önceki denemeye göre",
+    "trend": "Net gelişimi",
+    "trendHint": "{{exam}} denemelerindeki toplam netin",
+    "trendAria": "Denemelere göre net değişimi",
+    "bySubject": "{{title}} — derslere göre net",
+    "all": "Tüm denemeler",
+    "exam": "Deneme",
+    "score": "Tahmini puan",
+    "scoreNote": "Tahmini puan netlerden hesaplanır; resmî ÖSYM/MEB puanı değildir."
+  },
+  "interests": {
+    "description": "İlgi alanlarını ve becerilerini işaretle; öneriler buna göre hazırlanır.",
+    "title": "İlgi alanlarım",
+    "pickHint_one": "{{count}} alan seçili · istediğin kadar seçebilirsin",
+    "pickHint_other": "{{count}} alan seçili · istediğin kadar seçebilirsin",
+    "items": {
+      "technology": "Teknoloji",
+      "science": "Bilim",
+      "health": "Sağlık",
+      "math": "Matematik",
+      "art": "Sanat",
+      "design": "Tasarım",
+      "music": "Müzik",
+      "sports": "Spor",
+      "nature": "Doğa ve çevre",
+      "business": "İş ve girişimcilik",
+      "law": "Hukuk ve adalet",
+      "education": "Eğitim",
+      "languages": "Yabancı diller",
+      "social": "İnsan ve toplum",
+      "history": "Tarih",
+      "games": "Oyun ve kodlama"
+    },
+    "skillsTitle": "Becerilerim",
+    "skillsHint": "Kendini 1 ile 5 arasında değerlendir.",
+    "skills": {
+      "analytical": "Analitik düşünme",
+      "creative": "Yaratıcılık",
+      "communication": "İletişim",
+      "teamwork": "Takım çalışması",
+      "languages": "Dil becerisi",
+      "handsOn": "Uygulama ve el becerisi"
+    },
+    "level": "Seviye {{level}}",
+    "scale": "1 = geliştirmem gerek · 5 = çok güçlüyüm",
+    "updated": "Son güncelleme",
+    "never": "Henüz kaydedilmedi",
+    "saved": "İlgi ve beceri profilin kaydedildi",
+    "toMajors": "Bölüm önerilerini gör"
+  },
+  "preferences": {
+    "descriptionLgs": "LGS puanına göre liseleri incele, şansını gör ve tercih listene ekle.",
+    "descriptionYks": "Başarı sırana göre üniversite programlarını incele ve tercih listene ekle.",
+    "yourScore": "LGS puanın",
+    "scoreRange": "100 ile 500 arasında bir puan gir.",
+    "fromMock": "Son denemene göre: {{score}}",
+    "howLgs": "Şans, puanının okulun son yıl taban puanına uzaklığına göre hesaplanan kaba bir tahmindir.",
+    "scoreType": "Puan türü",
+    "yourRank": "Başarı sıran",
+    "rankHint": "Deneme veya sınav sonucundaki sıralamanı yaz.",
+    "howYks": "Şans, sıralamanın programın son yıl taban sıralamasına uzaklığına göre hesaplanan kaba bir tahmindir.",
+    "chanceLabel": "Şans",
+    "chance": {
+      "safe": "Güvenli",
+      "match": "Uygun",
+      "reach": "Zorlayıcı"
+    },
+    "chanceNote": "Kesin sonuç değildir; kontenjan ve yıllara göre değişir.",
+    "school": "Lise",
+    "program": "Program",
+    "baseScore": "Taban puan",
+    "baseRank": "Taban sıralama",
+    "inList": "Listende",
+    "added": "{{name}} tercih listene eklendi",
+    "searchSchools": "Okul adı, ilçe veya tür",
+    "searchPrograms": "Üniversite, program veya şehir",
+    "allCities": "Tüm şehirler",
+    "state": "Devlet",
+    "foundation": "Vakıf",
+    "empty": "Ölçütlere uyan kayıt yok"
+  },
+  "majors": {
+    "description": "İlgi alanlarına ve becerilerine en çok uyan üniversite bölümleri.",
+    "editProfile": "İlgi profilimi düzenle",
+    "basedOn": "Önerilerin dayanağı",
+    "method": "Uyum yüzdesi, seçtiğin ilgi alanlarının bölümle örtüşmesinden (%60) ve bölüm için önemli becerilere verdiğin puanlardan (%40) hesaplanır. Bir yönlendirmedir; karar senindir.",
+    "match": "uyum",
+    "matchAria": "{{name}} uyumu: yüzde {{value}}",
+    "topPick": "En uygun",
+    "why": "Neden önerildi",
+    "careers": "İlgili meslekler",
+    "programCount_one": "Katalogda {{count}} program",
+    "programCount_other": "Katalogda {{count}} program",
+    "toCareers": "Meslekler",
+    "toPrograms": "Programları gör",
+    "empty": "Şimdilik öneri çıkmadı",
+    "emptyHint": "İlgi alanlarını ve becerilerini işaretlediğinde öneriler burada görünür."
+  },
+  "careers": {
+    "description": "Meslekleri, gereken becerileri ve ilgili bölümleri keşfet.",
+    "searchPlaceholder": "Meslek, beceri veya bölüm",
+    "field": "Alan",
+    "allFields": "Tüm alanlar",
+    "outlook": "İş olanakları",
+    "allOutlooks": "Tümü",
+    "outlookLevel": {
+      "high": "Yüksek",
+      "medium": "Orta",
+      "low": "Sınırlı"
+    },
+    "forYou": "Sana uygun",
+    "skills": "Gereken beceriler",
+    "programs": "İlgili bölümler",
+    "empty": "Meslek bulunamadı",
+    "count_one": "{{count}} meslek",
+    "count_other": "{{count}} meslek"
+  },
+  "roadmap": {
+    "description": "Bugünden mesleğine uzanan adımlarını planla ve tamamladıkça işaretle.",
+    "add": "Adım ekle",
+    "addTo": "{{phase}} için adım ekle",
+    "editTitle": "Adımı düzenle",
+    "progress": "Yol haritası ilerlemesi",
+    "progressAria": "{{total}} adımdan {{done}} tanesi tamamlandı",
+    "doneOf": "{{done}}/{{total}} adım",
+    "stage": "{{n}}. aşama",
+    "phase": {
+      "now": "Şimdi",
+      "thisYear": "Bu yıl",
+      "university": "Üniversite",
+      "career": "Kariyer"
+    },
+    "phaseLabel": "Aşama",
+    "stepTitle": "Adım",
+    "stepPlaceholder": "Örn. Kodlama kulübüne katıl",
+    "stepDescription": "Açıklama (isteğe bağlı)",
+    "emptyPhase": "Bu aşamada henüz adım yok.",
+    "max_one": "En fazla {{count}} adım ekleyebilirsin.",
+    "max_other": "En fazla {{count}} adım ekleyebilirsin.",
+    "added": "Adım eklendi",
+    "updated": "Adım güncellendi",
+    "removed": "Adım silindi",
+    "deleteTitle": "Adım silinsin mi?",
+    "deleteMessage": "“{{title}}” yol haritandan kaldırılacak."
+  },
+  "saved": {
+    "descriptionLgs": "Beğendiğin liseleri sırala, not ekle ve yazdır.",
+    "descriptionYks": "Beğendiğin programları sırala, not ekle ve yazdır. YKS’de en fazla 24 tercih yapılabilir.",
+    "title": "Tercih listem",
+    "count_one": "{{count}} tercih",
+    "count_other": "{{count}} tercih",
+    "notOfficial": "Bu liste kişisel çalışma listendir; resmî tercih başvurusu yerine geçmez.",
+    "kind": {
+      "school": "Lise",
+      "program": "Program"
+    },
+    "note": "Not",
+    "editNote": "Not ekle",
+    "noteHint_one": "{{count}} karakter kaldı",
+    "noteHint_other": "{{count}} karakter kaldı",
+    "noteSaved": "Not kaydedildi",
+    "moved": "{{name}} {{position}}. sıraya taşındı",
+    "print": "Yazdır",
+    "empty": "Tercih listen boş",
+    "emptyHint": "Tercih Robotu’nda beğendiklerini “Listeme ekle” ile buraya kaydet.",
+    "removeTitle": "Listeden çıkarılsın mı?",
+    "removeMessage": "{{name}} tercih listenden çıkarılacak.",
+    "removed": "Listeden çıkarıldı"
+  }
+}

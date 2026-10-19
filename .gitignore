@@ -1,0 +1,24 @@
+# Shared ignores for the whole repository (frontend/ and backend/ add their own).
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Secrets — never commit them (commit a .env.example with empty values instead)
+.env
+*.local
+*.pem
+*.key
+serviceAccount*.json
+
+# Logs
+*.log
+
+# Editors and OS files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db

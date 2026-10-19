@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="PUSULA — yönetici, öğretmen ve öğrenci için eğitim portalı" />
+    <title>PUSULA Eğitim Portalı</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234263EB'/%3E%3Cpath d='M7 12.5 16 8l9 4.5-9 4.5z' fill='%23fff'/%3E%3Cpath d='M11 15.5v4.2c0 1.6 2.2 3.3 5 3.3s5-1.7 5-3.3v-4.2L16 18z' fill='%23fff' opacity='.82'/%3E%3C/svg%3E" />
+    <script>
+      // Apply the saved theme (or the embedding page's / OS theme) before first paint to avoid a flash.
+      (function () {
+        var theme = null;
+        var lang = null;
+        try {
+          theme = localStorage.getItem('sep.theme');
+          lang = localStorage.getItem('sep.lang');
+        } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') {
+          var preset = document.documentElement.getAttribute('data-theme');
+          theme =
+            preset === 'light' || preset === 'dark'
+              ? preset
+              : window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.style.colorScheme = theme;
+        if (lang === 'en' || lang === 'tr') document.documentElement.lang = lang;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

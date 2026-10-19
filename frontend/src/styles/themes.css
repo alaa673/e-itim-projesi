@@ -1,0 +1,179 @@
+/*
+ * Dark theme — deep violet-black canvas; role colours get their own steps.
+ * Applied when the OS prefers dark (unless light was chosen) or when data-theme="dark" is set.
+ */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    /* Surfaces & text */
+    --background: 17 12 31; /* #110C1F */
+    --surface: 26 20 48; /* #1A1430 */
+    --surface-muted: 33 26 58; /* #211A3A */
+    --surface-elevated: 37 29 65; /* #251D41 */
+    --foreground: 243 239 252; /* #F3EFFC */
+    --muted-foreground: 173 165 198; /* #ADA5C6 */
+    --border: 48 40 77; /* #30284D */
+    --input: 125 117 160; /* #7D75A0 */
+    --field: 31 24 56; /* #1F1838 */
+    --overlay: 5 3 11; /* #05030B */
+    /* Lime — shared PUSULA highlight (active navigation, achievements) */
+    --lime: 212 244 106; /* #D4F46A */
+    --lime-foreground: 29 20 51; /* #1D1433 */
+    --lime-soft: 43 52 23; /* #2B3417 */
+    --lime-ink: 199 238 90; /* #C7EE5A */
+    /* Status — always paired with an icon or text */
+    --success: 95 212 122; /* #5FD47A */
+    --warning: 245 185 74; /* #F5B94A */
+    --danger: 255 122 140; /* #FF7A8C */
+    --info: 142 168 255; /* #8EA8FF */
+    --danger-foreground: 42 6 16; /* #2A0610 */
+    /* Achievement (coral) — learning milestones */
+    --achievement: 255 157 122; /* #FF9D7A */
+    --achievement-ink: 255 180 154; /* #FFB49A */
+    --achievement-soft: 58 36 48; /* #3A2430 */
+    /* Pastel card tints + their text-safe inks */
+    --tint-violet: 39 31 69; /* #271F45 */
+    --tint-mint: 27 46 38; /* #1B2E26 */
+    --tint-peach: 53 36 31; /* #35241F */
+    --tint-sky: 26 41 68; /* #1A2944 */
+    --ink-violet: 196 177 255; /* #C4B1FF */
+    --ink-mint: 142 224 138; /* #8EE08A */
+    --ink-peach: 255 180 154; /* #FFB49A */
+    --ink-sky: 156 197 255; /* #9CC5FF */
+    --ink-amber: 245 198 106; /* #F5C66A */
+    /* Charts: categorical slots in fixed, colour-blind-checked order + chrome */
+    --chart-1: 142 130 245; /* #8E82F5 */
+    --chart-2: 226 105 79; /* #E2694F */
+    --chart-3: 30 158 189; /* #1E9EBD */
+    --chart-4: 185 134 20; /* #B98614 */
+    --chart-5: 30 156 128; /* #1E9C80 */
+    --chart-grid: 44 37 72; /* #2C2548 */
+    --chart-axis: 70 61 104; /* #463D68 */
+    /* Diverging score scale for heat cells */
+    --heat-1: 184 67 90; /* #B8435A */
+    --heat-2: 92 42 58; /* #5C2A3A */
+    --heat-3: 51 43 82; /* #332B52 */
+    --heat-4: 60 52 120; /* #3C3478 */
+    --heat-5: 108 92 230; /* #6C5CE6 */
+    /* Brand illustration colours */
+    --brand-violet: 139 99 255; /* #8B63FF */
+    --brand-lime: 212 244 106; /* #D4F46A */
+    --brand-coral: 255 157 122; /* #FF9D7A */
+    --brand-sky: 108 182 255; /* #6CB6FF */
+    --brand-teal: 43 196 162; /* #2BC4A2 */
+    --brand-amber: 255 197 61; /* #FFC53D */
+    --shadow-card: 0 1px 2px rgb(5 3 11 / 0.5), 0 8px 22px -10px rgb(5 3 11 / 0.6);
+    --shadow-pop: 0 28px 56px -16px rgb(5 3 11 / 0.8), 0 6px 14px rgb(5 3 11 / 0.45);
+    color-scheme: dark;
+  }
+
+  :root:not([data-theme='light']),
+  :root:not([data-theme='light']) [data-role] {
+    --primary: var(--role-primary-dark);
+    --primary-hover: var(--role-primary-hover-dark);
+    --primary-foreground: var(--role-primary-foreground-dark);
+    --ink: var(--role-ink-dark);
+    --ink-foreground: var(--role-ink-foreground-dark);
+    --accent: var(--role-accent-dark);
+    --accent-soft: var(--role-accent-soft-dark);
+    --accent-ink: var(--role-accent-ink-dark);
+    --ring: var(--role-ring-dark);
+    --chart-emphasis: var(--role-chart-emphasis-dark);
+    --banner-from: var(--role-banner-from-dark);
+    --banner-to: var(--role-banner-to-dark);
+    --banner-ink: var(--role-banner-ink-dark);
+    --sidebar: var(--role-sidebar-dark);
+    --sidebar-2: var(--role-sidebar-2-dark);
+    --sidebar-foreground: var(--role-sidebar-foreground-dark);
+    --sidebar-muted: var(--role-sidebar-muted-dark);
+    --sidebar-hover: var(--role-sidebar-hover-dark);
+    --sidebar-border: var(--role-sidebar-border-dark);
+    --sidebar-hill: var(--role-sidebar-hill-dark);
+  }
+}
+
+:root[data-theme='dark'] {
+  /* Surfaces & text */
+  --background: 17 12 31; /* #110C1F */
+  --surface: 26 20 48; /* #1A1430 */
+  --surface-muted: 33 26 58; /* #211A3A */
+  --surface-elevated: 37 29 65; /* #251D41 */
+  --foreground: 243 239 252; /* #F3EFFC */
+  --muted-foreground: 173 165 198; /* #ADA5C6 */
+  --border: 48 40 77; /* #30284D */
+  --input: 125 117 160; /* #7D75A0 */
+  --field: 31 24 56; /* #1F1838 */
+  --overlay: 5 3 11; /* #05030B */
+  /* Lime — shared PUSULA highlight (active navigation, achievements) */
+  --lime: 212 244 106; /* #D4F46A */
+  --lime-foreground: 29 20 51; /* #1D1433 */
+  --lime-soft: 43 52 23; /* #2B3417 */
+  --lime-ink: 199 238 90; /* #C7EE5A */
+  /* Status — always paired with an icon or text */
+  --success: 95 212 122; /* #5FD47A */
+  --warning: 245 185 74; /* #F5B94A */
+  --danger: 255 122 140; /* #FF7A8C */
+  --info: 142 168 255; /* #8EA8FF */
+  --danger-foreground: 42 6 16; /* #2A0610 */
+  /* Achievement (coral) — learning milestones */
+  --achievement: 255 157 122; /* #FF9D7A */
+  --achievement-ink: 255 180 154; /* #FFB49A */
+  --achievement-soft: 58 36 48; /* #3A2430 */
+  /* Pastel card tints + their text-safe inks */
+  --tint-violet: 39 31 69; /* #271F45 */
+  --tint-mint: 27 46 38; /* #1B2E26 */
+  --tint-peach: 53 36 31; /* #35241F */
+  --tint-sky: 26 41 68; /* #1A2944 */
+  --ink-violet: 196 177 255; /* #C4B1FF */
+  --ink-mint: 142 224 138; /* #8EE08A */
+  --ink-peach: 255 180 154; /* #FFB49A */
+  --ink-sky: 156 197 255; /* #9CC5FF */
+  --ink-amber: 245 198 106; /* #F5C66A */
+  /* Charts: categorical slots in fixed, colour-blind-checked order + chrome */
+  --chart-1: 142 130 245; /* #8E82F5 */
+  --chart-2: 226 105 79; /* #E2694F */
+  --chart-3: 30 158 189; /* #1E9EBD */
+  --chart-4: 185 134 20; /* #B98614 */
+  --chart-5: 30 156 128; /* #1E9C80 */
+  --chart-grid: 44 37 72; /* #2C2548 */
+  --chart-axis: 70 61 104; /* #463D68 */
+  /* Diverging score scale for heat cells */
+  --heat-1: 184 67 90; /* #B8435A */
+  --heat-2: 92 42 58; /* #5C2A3A */
+  --heat-3: 51 43 82; /* #332B52 */
+  --heat-4: 60 52 120; /* #3C3478 */
+  --heat-5: 108 92 230; /* #6C5CE6 */
+  /* Brand illustration colours */
+  --brand-violet: 139 99 255; /* #8B63FF */
+  --brand-lime: 212 244 106; /* #D4F46A */
+  --brand-coral: 255 157 122; /* #FF9D7A */
+  --brand-sky: 108 182 255; /* #6CB6FF */
+  --brand-teal: 43 196 162; /* #2BC4A2 */
+  --brand-amber: 255 197 61; /* #FFC53D */
+  --shadow-card: 0 1px 2px rgb(5 3 11 / 0.5), 0 8px 22px -10px rgb(5 3 11 / 0.6);
+  --shadow-pop: 0 28px 56px -16px rgb(5 3 11 / 0.8), 0 6px 14px rgb(5 3 11 / 0.45);
+  color-scheme: dark;
+}
+
+:root[data-theme='dark'],
+:root[data-theme='dark'] [data-role] {
+  --primary: var(--role-primary-dark);
+  --primary-hover: var(--role-primary-hover-dark);
+  --primary-foreground: var(--role-primary-foreground-dark);
+  --ink: var(--role-ink-dark);
+  --ink-foreground: var(--role-ink-foreground-dark);
+  --accent: var(--role-accent-dark);
+  --accent-soft: var(--role-accent-soft-dark);
+  --accent-ink: var(--role-accent-ink-dark);
+  --ring: var(--role-ring-dark);
+  --chart-emphasis: var(--role-chart-emphasis-dark);
+  --banner-from: var(--role-banner-from-dark);
+  --banner-to: var(--role-banner-to-dark);
+  --banner-ink: var(--role-banner-ink-dark);
+  --sidebar: var(--role-sidebar-dark);
+  --sidebar-2: var(--role-sidebar-2-dark);
+  --sidebar-foreground: var(--role-sidebar-foreground-dark);
+  --sidebar-muted: var(--role-sidebar-muted-dark);
+  --sidebar-hover: var(--role-sidebar-hover-dark);
+  --sidebar-border: var(--role-sidebar-border-dark);
+  --sidebar-hill: var(--role-sidebar-hill-dark);
+}

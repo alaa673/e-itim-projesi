@@ -1,0 +1,211 @@
+{
+  "profile": {
+    "description": "Kişisel bilgilerin ve iletişim bilgilerin.",
+    "classBadge": "{{cls}} sınıfı",
+    "email": "E-posta",
+    "institution": "Kurum",
+    "class": "Sınıf",
+    "schoolNumber": "Okul numarası",
+    "subjects": "Branş",
+    "classes": "Sınıflarım",
+    "memberSince": "Üyelik başlangıcı",
+    "lastLogin": "Son giriş",
+    "managed": "Ad, e-posta ve sınıf bilgilerin okul yönetimi tarafından yönetilir. Bir hata görürsen sorun bildir.",
+    "managedAdmin": "Ad ve e-posta bilgileri kurum hesabından yönetilir.",
+    "reportWrong": "Hatalı bilgiyi bildir",
+    "contactTitle": "İletişim bilgileri",
+    "contactHint": "Bu bilgileri yalnızca okul yönetimi ve öğretmenlerin görür.",
+    "phone": "Telefon",
+    "phoneHint": "İsteğe bağlı · örn. 0532 123 45 67",
+    "about": "Hakkımda",
+    "aboutHint_one": "{{count}} karakter kaldı",
+    "aboutHint_other": "{{count}} karakter kaldı",
+    "saved": "Profilin güncellendi"
+  },
+  "settings": {
+    "description": "Şifre, görünüm, dil ve bildirim tercihlerin.",
+    "passwordTitle": "Şifre değiştir",
+    "passwordHint": "Güçlü ve yalnızca bu hesapta kullandığın bir şifre seç.",
+    "currentPassword": "Mevcut şifre",
+    "newPassword": "Yeni şifre",
+    "confirmPassword": "Yeni şifre (tekrar)",
+    "policy": "En az 8 karakter; harf ve rakam içermeli.",
+    "showPasswords": "Şifreleri göster",
+    "hidePasswords": "Şifreleri gizle",
+    "strength": {
+      "0": "—",
+      "1": "Zayıf",
+      "2": "Orta",
+      "3": "Güçlü",
+      "4": "Çok güçlü"
+    },
+    "tip1": "Şifreni kimseyle paylaşma.",
+    "tip2": "Ortak bilgisayarlarda işin bitince çıkış yap.",
+    "changePassword": "Şifreyi değiştir",
+    "passwordChanged": "Şifren değiştirildi",
+    "passwordCheckedDemo": "Bilgiler doğrulandı",
+    "passwordDemoNote": "Demo modunda şifre değiştirilmez; demo hesaplarının şifresi aynı kalır.",
+    "appearanceTitle": "Görünüm ve dil",
+    "appearanceHint": "Tema ve dil tercihin bu cihazda saklanır.",
+    "theme": "Tema",
+    "themes": {
+      "light": "Açık",
+      "dark": "Koyu"
+    },
+    "language": "Dil",
+    "localNote": "Değişiklikler hemen uygulanır.",
+    "notificationsTitle": "Bildirimler",
+    "notificationsHint": "Hangi konularda bildirim almak istediğini seç.",
+    "emailChannel": "E-posta ile de gönder",
+    "emailChannelHint": "Seçili bildirimler uygulama içinde her zaman görünür.",
+    "topics": {
+      "announcements": "Duyurular",
+      "messages": "Mesajlar",
+      "deadlines": "Yaklaşan teslim ve sınavlar",
+      "results": "Sonuçlar ve geri bildirimler",
+      "meetings": "Toplantılar",
+      "weeklySummary": "Haftalık özet"
+    },
+    "topicHints": {
+      "announcements": "Okulun ve sınıflarının yeni duyuruları.",
+      "messages": "Sana gelen yeni mesajlar.",
+      "deadlines": "Teslim tarihi ve sınav saati yaklaşınca hatırlatma.",
+      "results": "Puanlanan sınav ve ödevler, itiraz yanıtları.",
+      "meetings": "Toplantı daveti ve saat değişiklikleri.",
+      "weeklySummary": "Her pazartesi geçen haftanın kısa özeti."
+    },
+    "notificationsSaved": "Bildirim tercihlerin kaydedildi",
+    "sessionTitle": "Oturum",
+    "sessionDemo": "Demo hesabıyla giriş yaptın ({{email}}). Demo verileri yalnızca bu oturumda tutulur; sayfa yenilenince sıfırlanır.",
+    "sessionReal": "{{email}} hesabıyla giriş yaptın."
+  },
+  "help": {
+    "description": {
+      "student": "Sık sorulan sorular ve okul yönetimine sorun bildirme.",
+      "teacher": "Sık sorulan sorular ve okul yönetimine sorun bildirme.",
+      "admin": "Yönetici için sık sorulan sorular ve gelen destek talepleri."
+    },
+    "faqTitle": "Sık sorulan sorular",
+    "faqHint": "Aradığını bulamazsan bize yaz.",
+    "searchLabel": "Sorularda ara",
+    "searchPlaceholder": "Örn. şifre, deneme, itiraz",
+    "results_one": "{{count}} soru bulundu",
+    "results_other": "{{count}} soru bulundu",
+    "noMatch": "Eşleşen soru yok",
+    "noMatchHint": "Farklı bir kelime dene ya da sorununu bildir.",
+    "formTitle": "Sorun bildir",
+    "formHint": "Talebin okul yönetimine iletilir; yanıtı aşağıda görürsün.",
+    "subject": "Konu",
+    "subjectPlaceholder": "Örn. Ödev dosyası yüklenmiyor",
+    "category": "Kategori",
+    "message": "Açıklama",
+    "messagePlaceholder": "Ne oldu, hangi sayfadaydın, ne denedin?",
+    "messageHint_one": "{{count}} karakter kaldı",
+    "messageHint_other": "{{count}} karakter kaldı",
+    "sent": "Talebin okul yönetimine iletildi",
+    "myRequests": "Taleplerim",
+    "noRequests": "Henüz talebin yok",
+    "replies_one": "{{count}} yanıt",
+    "replies_other": "{{count}} yanıt",
+    "you": "Sen",
+    "schoolAdmin": "{{name}} · Okul yönetimi",
+    "adminInboxTitle": "Gelen destek talepleri",
+    "adminInboxHint": "Öğretmen ve öğrencilerin bildirdiği sorunları buradan yanıtlayın.",
+    "faq": {
+      "student": {
+        "login": {
+          "q": "Giriş yapamıyorum, ne yapmalıyım?",
+          "a": "E-posta adresini okulunun verdiği biçimde yazdığından emin ol. Şifreni unuttuysan okul yöneticin sıfırlayabilir; giriş ekranındaki “Şifremi unuttum” bağlantısı ne yapman gerektiğini anlatır."
+        },
+        "password": {
+          "q": "Şifremi nasıl değiştiririm?",
+          "a": "Sol alttaki profil kartından “Şifre ve Hesap Ayarları”nı aç. Mevcut şifreni ve en az 8 karakterli, harf ve rakam içeren yeni şifreni yaz."
+        },
+        "exams": {
+          "q": "Sınav sırasında süre dolarsa ne olur?",
+          "a": "Süre dolduğunda o ana kadar verdiğin cevaplar otomatik teslim edilir. Boş bıraktığın sorular boş sayılır."
+        },
+        "appeal": {
+          "q": "Bir sonuca nasıl itiraz ederim?",
+          "a": "“Sonuçlarım” sayfasında ilgili sonucun yanındaki “İtiraz et” düğmesine bas, soru numarasını ve açıklamanı yaz. İtirazın öğretmenine gider."
+        },
+        "mocks": {
+          "q": "Deneme puanım resmî puan mı?",
+          "a": "Hayır. Deneme puanı netlerinden hesaplanan tahmini bir değerdir; gelişimini izlemen içindir."
+        },
+        "guidance": {
+          "q": "Tercih Robotu’ndaki şanslar kesin mi?",
+          "a": "Hayır. Şans, puanının veya sıralamanın son yılın taban değerine uzaklığına göre kaba bir tahmindir. Kontenjanlar ve taban puanlar her yıl değişir."
+        },
+        "privacy": {
+          "q": "Verilerimi kimler görebilir?",
+          "a": "Sonuçların ve çalışmaların yalnızca sana, öğretmenlerine ve okul yönetimine gösterilir; diğer öğrenciler göremez."
+        }
+      },
+      "teacher": {
+        "classes": {
+          "q": "Sınıf listemde eksik öğrenci var.",
+          "a": "Sınıf listelerini okul yönetimi düzenler. “Hesap” kategorisinde talep oluşturup öğrencinin adını ve sınıfını yazın."
+        },
+        "content": {
+          "q": "Ders özetimi öğrencilerle nasıl paylaşırım?",
+          "a": "“Dersler ve Özetler” sayfasında içeriği oluşturun veya PDF yükleyin, ardından paylaşmak istediğiniz sınıfları seçin."
+        },
+        "ai": {
+          "q": "Yapay zekâ ile üretilen içerik doğrudan yayınlanır mı?",
+          "a": "Hayır. Üretilen özet, soru veya sunum önce size taslak olarak gelir; düzenleyip onayladıktan sonra yayınlanır."
+        },
+        "grading": {
+          "q": "Ödevleri rubrikle nasıl puanlarım?",
+          "a": "“Teslimler ve Değerlendirme” sayfasında teslimi açın, her ölçüt için puanı seçin ve geri bildiriminizi yazın. Toplam puan otomatik hesaplanır."
+        },
+        "support": {
+          "q": "Bireysel destek çalışması nasıl gönderilir?",
+          "a": "“Bireysel Destek” sayfasında öğrenciyi ve zayıf konuyu seçin, soru sayısını belirleyip gönderin. Öğrenci kendi panelinde görür."
+        },
+        "export": {
+          "q": "Raporları dışa aktarabilir miyim?",
+          "a": "“Raporlar” sayfasında sınıf raporunu CSV olarak indirebilir veya yazdırabilirsiniz."
+        },
+        "privacy": {
+          "q": "Öğrenci verilerini kimler görür?",
+          "a": "Yalnızca dersine girdiğiniz sınıfların verilerini görürsünüz. Yetkiler okul yönetimi tarafından belirlenir."
+        }
+      },
+      "admin": {
+        "import": {
+          "q": "Öğrencileri toplu nasıl eklerim?",
+          "a": "“Toplu İçe Aktarma” sayfasından şablonu indirin, doldurup CSV olarak yükleyin. Hatalı satırlar içe aktarmadan önce gösterilir."
+        },
+        "terms": {
+          "q": "Yeni eğitim yılına nasıl geçerim?",
+          "a": "“Eğitim Yılları ve Dönemler” sayfasında yeni dönemi oluşturup etkinleştirin; ardından sınıfları ve ders atamalarını güncelleyin."
+        },
+        "archive": {
+          "q": "Yüklenen sınav PDF’leri ne zaman soru bankasına girer?",
+          "a": "PDF işlendikten sonra çıkarılan sorular “Soru İnceleme” sayfasına düşer. Onayladığınız sorular “Onaylı Sorular”a eklenir."
+        },
+        "aiKey": {
+          "q": "Yapay zekâ API anahtarı nerede saklanır?",
+          "a": "Anahtar yalnızca sunucuda şifreli olarak saklanır. Tarayıcıya hiçbir zaman gönderilmez; arayüzde yalnızca son karakterleri görünür."
+        },
+        "backup": {
+          "q": "Yedekleme nasıl yapılır?",
+          "a": "“Arşiv ve Saklama” sayfasında otomatik yedek sıklığını seçebilir ve elle yedek başlatabilirsiniz."
+        },
+        "permissions": {
+          "q": "Öğretmen yetkilerini nasıl değiştiririm?",
+          "a": "“Yetkiler” sayfasında ilgili izni açıp kapatın. Kilitli izinler güvenlik nedeniyle değiştirilemez."
+        },
+        "privacy": {
+          "q": "Kişisel veriler nasıl korunur?",
+          "a": "Yetkilendirme sunucuda yapılır; her kullanıcı yalnızca rolünün izin verdiği verileri görür. Saklama süreleri “Arşiv ve Saklama” sayfasından yönetilir."
+        }
+      }
+    }
+  },
+  "firstLogin": {
+    "title": "Yeni şifreni belirle",
+    "lead": "Merhaba {{name}}! Hesabın okul yönetimi tarafından oluşturuldu veya şifren sıfırlandı. Devam etmek için sana verilen şifreyi ve kendi belirlediğin yeni şifreyi yaz."
+  }
+}

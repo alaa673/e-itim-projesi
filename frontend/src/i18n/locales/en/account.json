@@ -1,0 +1,211 @@
+{
+  "profile": {
+    "description": "Your personal and contact details.",
+    "classBadge": "Class {{cls}}",
+    "email": "E-mail",
+    "institution": "School",
+    "class": "Class",
+    "schoolNumber": "School number",
+    "subjects": "Subjects",
+    "classes": "My classes",
+    "memberSince": "Member since",
+    "lastLogin": "Last sign-in",
+    "managed": "Your name, e-mail and class are managed by the school administration. Report a problem if something is wrong.",
+    "managedAdmin": "Name and e-mail are managed by the institution account.",
+    "reportWrong": "Report wrong details",
+    "contactTitle": "Contact details",
+    "contactHint": "Only the school administration and your teachers can see these.",
+    "phone": "Phone",
+    "phoneHint": "Optional · e.g. 0532 123 45 67",
+    "about": "About me",
+    "aboutHint_one": "{{count}} character left",
+    "aboutHint_other": "{{count}} characters left",
+    "saved": "Your profile was updated"
+  },
+  "settings": {
+    "description": "Password, appearance, language and notification preferences.",
+    "passwordTitle": "Change password",
+    "passwordHint": "Choose a strong password that you only use for this account.",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm new password",
+    "policy": "At least 8 characters, with letters and numbers.",
+    "showPasswords": "Show passwords",
+    "hidePasswords": "Hide passwords",
+    "strength": {
+      "0": "—",
+      "1": "Weak",
+      "2": "Fair",
+      "3": "Strong",
+      "4": "Very strong"
+    },
+    "tip1": "Never share your password.",
+    "tip2": "Sign out when you finish on a shared computer.",
+    "changePassword": "Change password",
+    "passwordChanged": "Your password was changed",
+    "passwordCheckedDemo": "Details verified",
+    "passwordDemoNote": "Passwords are not changed in demo mode; the demo accounts keep their password.",
+    "appearanceTitle": "Appearance & language",
+    "appearanceHint": "Your theme and language are stored on this device.",
+    "theme": "Theme",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "language": "Language",
+    "localNote": "Changes apply immediately.",
+    "notificationsTitle": "Notifications",
+    "notificationsHint": "Choose what you want to be notified about.",
+    "emailChannel": "Also send by e-mail",
+    "emailChannelHint": "Selected notifications always appear in the app.",
+    "topics": {
+      "announcements": "Announcements",
+      "messages": "Messages",
+      "deadlines": "Upcoming deadlines and exams",
+      "results": "Results and feedback",
+      "meetings": "Meetings",
+      "weeklySummary": "Weekly summary"
+    },
+    "topicHints": {
+      "announcements": "New announcements from the school and your classes.",
+      "messages": "New messages sent to you.",
+      "deadlines": "Reminders before due dates and exam times.",
+      "results": "Graded exams and homework, appeal responses.",
+      "meetings": "Meeting invitations and time changes.",
+      "weeklySummary": "A short summary of the past week every Monday."
+    },
+    "notificationsSaved": "Notification preferences saved",
+    "sessionTitle": "Session",
+    "sessionDemo": "You are signed in with a demo account ({{email}}). Demo data is kept only for this session and resets when the page reloads.",
+    "sessionReal": "You are signed in as {{email}}."
+  },
+  "help": {
+    "description": {
+      "student": "Frequently asked questions and reporting a problem to the school administration.",
+      "teacher": "Frequently asked questions and reporting a problem to the school administration.",
+      "admin": "Administrator FAQ and incoming support requests."
+    },
+    "faqTitle": "Frequently asked questions",
+    "faqHint": "Write to us if you cannot find what you need.",
+    "searchLabel": "Search questions",
+    "searchPlaceholder": "E.g. password, mock exam, appeal",
+    "results_one": "{{count}} question found",
+    "results_other": "{{count}} questions found",
+    "noMatch": "No matching questions",
+    "noMatchHint": "Try another word or report your problem.",
+    "formTitle": "Report a problem",
+    "formHint": "Your request goes to the school administration; you will see the reply below.",
+    "subject": "Subject",
+    "subjectPlaceholder": "E.g. My homework file will not upload",
+    "category": "Category",
+    "message": "Description",
+    "messagePlaceholder": "What happened, which page were you on, what did you try?",
+    "messageHint_one": "{{count}} character left",
+    "messageHint_other": "{{count}} characters left",
+    "sent": "Your request was sent to the school administration",
+    "myRequests": "My requests",
+    "noRequests": "You have no requests yet",
+    "replies_one": "{{count}} reply",
+    "replies_other": "{{count}} replies",
+    "you": "You",
+    "schoolAdmin": "{{name}} · School administration",
+    "adminInboxTitle": "Incoming support requests",
+    "adminInboxHint": "Answer the problems reported by teachers and students.",
+    "faq": {
+      "student": {
+        "login": {
+          "q": "I cannot sign in. What should I do?",
+          "a": "Make sure you type the e-mail address exactly as your school gave it. If you forgot your password, your school administrator can reset it; the “Forgot password” link on the sign-in screen explains what to do."
+        },
+        "password": {
+          "q": "How do I change my password?",
+          "a": "Open “Password & account settings” from the profile card at the bottom left. Enter your current password and a new one with at least 8 characters, letters and numbers."
+        },
+        "exams": {
+          "q": "What happens if time runs out during an exam?",
+          "a": "When time runs out, the answers you have given are submitted automatically. Questions you left empty count as blank."
+        },
+        "appeal": {
+          "q": "How do I appeal a result?",
+          "a": "On “My results”, press “Appeal” next to the result, enter the question number and your explanation. Your appeal goes to your teacher."
+        },
+        "mocks": {
+          "q": "Is my mock exam score official?",
+          "a": "No. The mock score is an estimate calculated from your nets, to help you track your progress."
+        },
+        "guidance": {
+          "q": "Are the chances in the Preference assistant certain?",
+          "a": "No. The chance is a rough estimate based on how far your score or ranking is from last year’s base value. Quotas and base scores change every year."
+        },
+        "privacy": {
+          "q": "Who can see my data?",
+          "a": "Only you, your teachers and the school administration can see your results and work. Other students cannot."
+        }
+      },
+      "teacher": {
+        "classes": {
+          "q": "A student is missing from my class list.",
+          "a": "Class lists are maintained by the school administration. Create a request in the “Account” category with the student’s name and class."
+        },
+        "content": {
+          "q": "How do I share a lesson summary with students?",
+          "a": "Create the content or upload a PDF on the “Lessons & summaries” page, then choose the classes to share it with."
+        },
+        "ai": {
+          "q": "Is AI-generated content published directly?",
+          "a": "No. Generated summaries, questions or slides come to you as a draft; they are published only after you edit and approve them."
+        },
+        "grading": {
+          "q": "How do I grade homework with a rubric?",
+          "a": "Open the submission on the “Submissions & grading” page, choose a level for each criterion and write your feedback. The total is calculated automatically."
+        },
+        "support": {
+          "q": "How do I send individual support work?",
+          "a": "On the “Individual support” page, pick the student and the weak topic, set the number of questions and send. The student sees it in their panel."
+        },
+        "export": {
+          "q": "Can I export reports?",
+          "a": "On the “Reports” page you can download the class report as CSV or print it."
+        },
+        "privacy": {
+          "q": "Who can see student data?",
+          "a": "You only see data for the classes you teach. Permissions are set by the school administration."
+        }
+      },
+      "admin": {
+        "import": {
+          "q": "How do I add students in bulk?",
+          "a": "Download the template from the “Bulk import” page, fill it in and upload it as CSV. Invalid rows are shown before importing."
+        },
+        "terms": {
+          "q": "How do I move to a new school year?",
+          "a": "Create and activate the new term on the “School years & terms” page, then update classes and teaching assignments."
+        },
+        "archive": {
+          "q": "When do uploaded exam PDFs reach the question bank?",
+          "a": "After the PDF is processed, extracted questions appear on the “Question review” page. Questions you approve are added to “Approved questions”."
+        },
+        "aiKey": {
+          "q": "Where is the AI API key stored?",
+          "a": "The key is stored encrypted on the server only. It is never sent to the browser; only its last characters are shown."
+        },
+        "backup": {
+          "q": "How are backups made?",
+          "a": "On the “Archive & retention” page you can set the automatic backup frequency and start a manual backup."
+        },
+        "permissions": {
+          "q": "How do I change teacher permissions?",
+          "a": "Toggle the permission on the “Permissions” page. Locked permissions cannot be changed for security reasons."
+        },
+        "privacy": {
+          "q": "How is personal data protected?",
+          "a": "Authorisation happens on the server; each user only sees what their role allows. Retention periods are managed on the “Archive & retention” page."
+        }
+      }
+    }
+  },
+  "firstLogin": {
+    "title": "Set your new password",
+    "lead": "Hi {{name}}! Your account was created or your password was reset by the school administration. To continue, enter the password you were given and a new password of your own."
+  }
+}

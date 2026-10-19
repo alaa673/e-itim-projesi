@@ -1,0 +1,2 @@
+# Same line endings (LF) for everyone, on Windows too; binary files are detected automatically.
+* text=auto eol=lf
